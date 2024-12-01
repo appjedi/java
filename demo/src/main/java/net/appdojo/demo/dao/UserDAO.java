@@ -95,4 +95,17 @@ public class UserDAO extends Database{
 			return null;
 		}
 	}
+	public User create (User user)
+	{
+		Database db = new Database();
+		try {
+			String sp="call usp_user_save";
+			
+			return user;
+		}catch (Exception ex)
+		{
+			return null;
+		}
+		
+	}
 }
