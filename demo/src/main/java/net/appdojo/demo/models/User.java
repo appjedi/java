@@ -30,6 +30,13 @@ public class User {
 		return "User [userId=" + userId + ", username=" + username + ", password=" + password + ", email=" + email
 				+ ", fullName=" + fullName + ", roleId=" + roleId + ", status=" + status + "]";
 	}
+	public Object[]getValues()
+	{
+		Object[]values = {
+				this.userId,this.username,this.password,this.email,this.fullName,this.roleId, this.status
+		};
+		return values;
+	}
 	public int getUserId() {
 		return this.userId;
 	}

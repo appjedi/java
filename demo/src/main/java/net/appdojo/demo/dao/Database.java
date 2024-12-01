@@ -257,7 +257,6 @@ public class Database {
 	}
 
 	public static String addQuestionMarks(String str, int ct) {
-
 		str += "(";
 		for (int i = 0; i < ct; i++) {
 			str += "?";
