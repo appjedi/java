@@ -1,0 +1,16 @@
+/* Ensures consistent column widths */
+.table th, .table td {
+    width: 25%;
+    text-align: center;
+}
+
+.action-column {
+    width: 30%;
+}
+
+/* Style for About link */
+.about-link {
+    font-size: 2rem;
+    color: #000;
+    font-weight: 600;
+}
