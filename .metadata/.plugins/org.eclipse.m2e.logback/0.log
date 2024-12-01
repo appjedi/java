@@ -1414,3 +1414,51 @@ update repo
 2024-12-01 11:19:32,987 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2024-12-01 11:19:32,987 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2024-12-01 11:19:32,988 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:21:21,905 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:21:21,906 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:21:21,906 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:21:21,907 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:21:41,899 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:21:41,900 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:21:41,902 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:21:41,903 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:22:01,470 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:22:01,471 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:22:01,475 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:22:01,476 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:22:21,575 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:22:21,576 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:22:21,580 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:22:21,582 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:23:04,074 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:23:04,076 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:23:04,077 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:23:04,078 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:23:05,099 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:23:05,100 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:23:05,102 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:23:05,103 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:24:21,159 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:24:21,160 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:24:21,162 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:24:21,163 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:27:28,789 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:27:28,791 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:27:28,792 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:27:28,794 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:28:47,915 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:28:47,916 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:28:47,920 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:28:47,921 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:31:01,029 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:31:01,031 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:31:01,034 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:31:01,035 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:31:44,802 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:31:44,803 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:31:44,806 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:31:44,808 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources
+2024-12-01 11:32:02,864 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-01 11:32:02,865 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 11:32:02,866 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 11:32:02,867 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/demo/src/test/resources

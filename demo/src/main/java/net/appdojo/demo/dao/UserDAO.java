@@ -7,11 +7,17 @@ import java.util.List;
 import net.appdojo.demo.models.User;
 
 public class UserDAO extends Database{
+	public static void main (String[]args)
+	{
+		UserDAO dao = new UserDAO();
+		User user = dao.getUser(1);
+		System.out.println(user);
+	}
 	public User getUser(int id)
 	{
 		Database db = new Database();
 		try {
-			ResultSet rs = db.getResultSet("SELECT * FROM users");
+			ResultSet rs = db.getResultSet("SELECT * FROM users where id="+id);
         	
         	if (rs==null||!rs.next())
         	{
@@ -23,6 +29,7 @@ public class UserDAO extends Database{
         	user.setUserId(id);
         	user.setEmail(rs.getString("email"));
         	user.setUsername(rs.getString("username"));
+        	user.setFullName(rs.getString("full_name"));
         	user.setStatus(rs.getInt("status"));
         	user.setRoleId(rs.getInt("role_id"));
         	return user;
@@ -46,9 +53,10 @@ public class UserDAO extends Database{
         	do {
 	        	User user = new User();
 	        	
-	        	user.setUserId(rs.getInt("user_id"));
+	        	user.setUserId(rs.getInt("id"));
 	        	user.setEmail(rs.getString("email"));
 	        	user.setUsername(rs.getString("username"));
+	        	user.setFullName(rs.getString("full_name"));
 	        	user.setStatus(rs.getInt("status"));
 	        	user.setRoleId(rs.getInt("role_id"));
 	        	users.add(user);

@@ -29,7 +29,7 @@ public class APIController {
 	@GetMapping("/user")
 	public User getUser()
 	{
-		User user = new User (1,"testerb","Test1234","testerb@test.com",2,1);
+		User user = new User (1,"testerb","Test1234","testerb@test.com","Bob Tester",2,1);
 		return user;
 	}
 	@GetMapping("/user/{id}")
@@ -39,6 +39,7 @@ public class APIController {
 		
 		try {
 			user = userDAO.getUser(id);
+			System.out.println(user);
 			return user;
 		}catch (Exception ex)
 		{

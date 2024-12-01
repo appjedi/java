@@ -5,23 +5,33 @@ public class User {
 	private String username;
 	private String password;
 	private String email;
+	private String fullName;
+	
+
 	private int roleId;
 	private int status;
 	
 	public User () {}
-	public User(int userId,String username, String password, String email, int roleId, int status) {
+	public User(int userId,String username, String password, String email, String fullName,int roleId, int status) {
 		super();
 		this.userId=userId;
 		this.username = username;
+		this.fullName = fullName;
 		this.password = password;
 		this.email = email;
 		this.roleId = roleId;
 		this.status = status;
 	}
+	
+	@Override
+	public String toString() {
+		return "User [userId=" + userId + ", username=" + username + ", password=" + password + ", email=" + email
+				+ ", fullName=" + fullName + ", roleId=" + roleId + ", status=" + status + "]";
+	}
 	public int getUserId() {
 		return this.userId;
 	}
-	public void setUserId(int roleId) {
+	public void setUserId(int userId) {
 		this.userId = userId;
 	}
 	public String getUsername() {
@@ -29,6 +39,12 @@ public class User {
 	}
 	public void setUsername(String username) {
 		this.username = username;
+	}
+	public String getFullName() {
+		return fullName;
+	}
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
 	}
 	public String getPassword() {
 		return "*********";
