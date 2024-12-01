@@ -22,7 +22,13 @@ public class Database {
 	private String jdbcURL = "jdbc:mysql://localhost/test";
     private String jdbcUsername = "root";
     private String jdbcPassword = "";
-    
+    private String[][] connections=
+    {
+    	{"jdbc:mysql://localhost/test", "root"," "},
+    	{"jdbc:mysql://appdojo.net/appjedin_training", "appjedin_dba","$Data2022"}
+                                 
+    };
+    int connIndex=1;
     String memoryURL = "jdbc:sqlite::memory:";
     private Connection conn;
 
@@ -104,7 +110,7 @@ public class Database {
             if (conn != null)
                 return conn;
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
+            conn = DriverManager.getConnection(connections[connIndex][0], connections[connIndex][1], connections[connIndex][2]);
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
