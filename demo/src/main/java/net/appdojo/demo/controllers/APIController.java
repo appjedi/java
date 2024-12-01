@@ -47,7 +47,7 @@ public class APIController {
 		return str;
 	}
 	@PostMapping("/auth")
-	@CrossOrigin(origins = "http://127.0.0.1:5500")
+	@CrossOrigin()
 	public User auth(@RequestBody User user)
 	{
 		try {
