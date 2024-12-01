@@ -136,7 +136,9 @@ public class Database {
 		try {
 			if (conn == null)
 				getConnection();
-
+			if (sql.indexOf("?") < 0) {
+				sql=addQuestionMarks(sql,values.length);
+			}
 			PreparedStatement statement = conn.prepareStatement(sql);
 			int row = 1;
 			for (Object obj : values) {
