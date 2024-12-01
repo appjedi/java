@@ -25,3 +25,100 @@
 2024-12-01 09:25:01,859 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-12-01 09:25:01,872 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-12-01 09:25:01,878 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\demo\src\test\resources
+2024-12-01 09:30:02,080 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-01 09:30:23,529 [Worker-7: Auto share git projects] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (455) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-01 09:30:25,283 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:3.4.0-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\demo\pom.xml.
+2024-12-01 09:30:26,899 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-01 09:30:27,176 [Worker-13: Building] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (458) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-01 09:30:27,210 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-01 09:30:27,212 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-01 09:30:27,254 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-01 09:30:27,367 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 9279fc8-dirty
+2024-12-01 09:30:27,367 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 9279fc8-dirty
+2024-12-01 09:30:27,368 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 9279fc804809f4e5225b657d19015ad2698f8081
+2024-12-01 09:30:27,368 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 9279fc8
+2024-12-01 09:30:27,403 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-01 09:30:27,404 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-01 09:30:27,417 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-01 09:30:27,418 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value update repo
+
+update repo
+2024-12-01 09:30:27,418 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value update repo
+2024-12-01 09:30:27,419 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-01T09:27:10-08:00
+2024-12-01 09:30:27,419 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-01T09:27:10-08:00
+2024-12-01 09:30:27,420 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-01T09:27:10-08:00
+2024-12-01 09:30:27,422 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-01 09:30:27,426 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-01 09:30:27,429 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-01 09:30:27,434 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-01 09:30:27,439 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-01 09:30:27,442 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 1
+2024-12-01 09:30:27,451 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2024-12-01 09:30:27,451 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-01 09:30:27,633 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-01 09:30:27,660 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-01 09:30:27,668 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\demo\src\test\resources
+2024-12-01 09:30:28,208 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:3.4.0-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\demo\pom.xml.
+2024-12-01 09:30:29,721 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-01 09:30:29,913 [Worker-10: Building] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (461) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-01 09:30:29,939 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-01 09:30:29,940 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-01 09:30:29,981 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-01 09:30:30,641 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 9279fc8-dirty
+2024-12-01 09:30:30,642 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 9279fc8-dirty
+2024-12-01 09:30:30,642 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 9279fc804809f4e5225b657d19015ad2698f8081
+2024-12-01 09:30:30,643 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 9279fc8
+2024-12-01 09:30:31,037 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-01 09:30:31,039 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-01 09:30:31,039 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-01 09:30:31,039 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value update repo
+
+update repo
+2024-12-01 09:30:31,040 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value update repo
+2024-12-01 09:30:31,041 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-01T09:27:10-08:00
+2024-12-01 09:30:31,042 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-01T09:27:10-08:00
+2024-12-01 09:30:31,042 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-01T09:27:10-08:00
+2024-12-01 09:30:31,044 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-01 09:30:31,047 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-01 09:30:31,050 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-01 09:30:31,055 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-01 09:30:31,061 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-01 09:30:31,063 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 1
+2024-12-01 09:30:31,073 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2024-12-01 09:30:31,074 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-01 09:30:31,145 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2024-11-28T06:37:52-08:00
+2024-12-01 09:30:31,146 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 3.4.0-SNAPSHOT
+2024-12-01 09:30:31,149 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value MSI
+2024-12-01 09:30:31,150 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tags' in results
+2024-12-01 09:30:31,150 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.version' in results
+2024-12-01 09:30:31,150 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2024-12-01 09:30:31,150 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.host' in results
+2024-12-01 09:30:31,150 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.email' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.behind' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.author.time' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.name' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.dirty' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.commit.count' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe-short' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.total.commit.count' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.email' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.short' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.committer.time' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tag' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.name' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.ahead' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.time' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.time' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2024-12-01 09:30:31,151 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.remote.origin.url' in results
+2024-12-01 09:30:31,153 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [C:\Users\timli\Documents\GitHub\java\demo\target\classes\git.properties] (for project petclinic)...
+2024-12-01 09:30:31,247 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-01 09:30:31,264 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-01 09:30:31,270 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\demo\src\test\resources
