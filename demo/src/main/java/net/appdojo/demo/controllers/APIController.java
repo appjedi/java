@@ -3,8 +3,11 @@ package net.appdojo.demo.controllers;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,9 +25,39 @@ public class APIController {
 	{
 		String str
 			= "<html><body><font color=\"green\">"
-			+ "<h1>WELCOME To GeeksForGeeks</h1>"
+			+ "<h1>Login:</h1>"
+			+"<form action='user' method='post'>"
+			+"<div><input type='text' name='username' placeholder='username'/></div>"
+			+"<div><input type='password' name='password' placeholder='password'/></div>"
+			+"<div><button>Login</button></form>"
 			+ "</font></body></html>";
 		return str;
+	}
+	@GetMapping("/login")
+	public String loginForm()
+	{
+		String str
+			= "<html><body><font color=\"green\">"
+			+ "<h1>Login:</h1>"
+			+"<form action='/auth' method='post'>"
+			+"<div><input type='text' name='username' placeholder='username'/></div>"
+			+"<div><input type='password' name='password' placeholder='password'/></div>"
+			+"<div><input type='submit' value='Login'/></div></form>"
+			+ "</font></body></html>";
+		return str;
+	}
+	@PostMapping("/auth")
+	@CrossOrigin(origins = "http://localhost:9000")
+	public String auth(@RequestBody User user)
+	{
+		try {
+			System.out.printf("post auth: \n%s\n",user);
+			return user.toString();
+		}catch (Exception ex)
+		{
+			System.err.println ("post auth error:"+ex);
+			return "post auth error";
+		}
 	}
 	@GetMapping("/user")
 	public User getUser()
