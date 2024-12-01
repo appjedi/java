@@ -19,9 +19,9 @@ public class Database {
     private String jdbcUsername = "root";
     private String jdbcPassword = "Password321";
     */
-	private String jdbcURL = "jdbc:mysql://127.0.0.1:3306/dev";
+	private String jdbcURL = "jdbc:mysql://localhost/test";
     private String jdbcUsername = "root";
-    private String jdbcPassword = "Jedi2023";
+    private String jdbcPassword = "";
     
     String memoryURL = "jdbc:sqlite::memory:";
     private Connection conn;
