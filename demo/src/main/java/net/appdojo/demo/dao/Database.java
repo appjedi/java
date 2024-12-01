@@ -159,7 +159,27 @@ public class Database {
 
         return -1;
     }
+    public ResultSet query(String sql, Object... values) {
+        try {
+            if (conn == null)
+                getConnection();
 
+            PreparedStatement statement = conn.prepareStatement(sql);
+            int row = 1;
+            for (Object obj : values) {
+                statement.setObject(row++, obj);
+            }
+            ResultSet rs =statement.executeQuery();
+            
+            return rs;
+        } catch (SQLException e) {
+        	e.printStackTrace();
+        } finally {
+            //close();
+        }
+
+        return null;
+    }
     public PreparedStatement prepare(String sql, boolean returnId) {
         try {
             if (conn == null)

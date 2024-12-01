@@ -10,7 +10,7 @@ public class UserDAO extends Database{
 	public static void main (String[]args)
 	{
 		UserDAO dao = new UserDAO();
-		User user = dao.getUser(1);
+		User user = dao.auth("bob","Test1234");
 		System.out.println(user);
 	}
 	public User getUser(int id)
@@ -36,6 +36,34 @@ public class UserDAO extends Database{
 		}catch (Exception ex)
 		{
 			return null;
+		}
+	}
+	public User auth(String un, String pw)
+	{
+		Database db = new Database();
+		try {
+			ResultSet rs = db.query("SELECT * FROM users where username=? AND password=?",un,pw);
+        	
+        	if (rs==null||!rs.next())
+        	{
+        		System.err.println ("Query failed");
+        		return null;
+        	}
+        	User user = new User();
+        	
+        	user.setUserId(rs.getInt("id"));
+        	user.setEmail(rs.getString("email"));
+        	user.setUsername(rs.getString("username"));
+        	user.setFullName(rs.getString("full_name"));
+        	user.setStatus(rs.getInt("status"));
+        	user.setRoleId(rs.getInt("role_id"));
+        	return user;
+		}catch (Exception ex)
+		{
+			ex.printStackTrace();
+			return null;
+		}finally {
+			db.close();
 		}
 	}
 	public List<User> getUsers()

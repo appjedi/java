@@ -47,16 +47,30 @@ public class APIController {
 		return str;
 	}
 	@PostMapping("/auth")
-	@CrossOrigin(origins = "http://localhost:9000")
-	public String auth(@RequestBody User user)
+	@CrossOrigin(origins = "http://127.0.0.1:5500")
+	public User auth(@RequestBody User user)
 	{
 		try {
-			System.out.printf("post auth: \n%s\n",user);
-			return user.toString();
+			System.out.printf("1. post auth: \n%s\n",user);
+			User authUser=userDAO.auth(user.getUsername(), user._pw());
+			System.out.printf("2. post auth: \n%s\n",authUser);
+			if(authUser==null)
+			{
+				user.setStatus(0);
+				user.setUserId(0);
+				user.setRoleId(0);
+				user.setFullName("Auth Failed!");
+				return user;
+			}
+			return authUser;
 		}catch (Exception ex)
 		{
 			System.err.println ("post auth error:"+ex);
-			return "post auth error";
+			user.setStatus(-1);
+			user.setUserId(0);
+			user.setRoleId(0);
+			user.setFullName("error:"+ex.getMessage());
+			return user;
 		}
 	}
 	@GetMapping("/user")
@@ -80,6 +94,7 @@ public class APIController {
 		}
 	}
 	@GetMapping("/users")
+	@CrossOrigin(origins = "http://127.0.0.1:5500")
 	public List<User> getUsers()
 	{
 		

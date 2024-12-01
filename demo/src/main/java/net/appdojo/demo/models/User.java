@@ -11,7 +11,9 @@ public class User {
 	private int roleId;
 	private int status;
 	
-	public User () {}
+	public User () {
+		
+	}
 	public User(int userId,String username, String password, String email, String fullName,int roleId, int status) {
 		super();
 		this.userId=userId;
@@ -48,6 +50,9 @@ public class User {
 	}
 	public String getPassword() {
 		return "*********";
+	}
+	public String _pw() {
+		return this.password;
 	}
 	public void setPassword(String password) {
 		this.password = password;
