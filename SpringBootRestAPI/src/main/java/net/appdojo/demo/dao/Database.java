@@ -129,7 +129,6 @@ public class Database {
 		return -1;
 	}
 
-	
 	public int execute(String sql, Object... values) {
 		try {
 			if (conn == null)
