@@ -113,10 +113,6 @@ public class UserDAO extends Database{
 	}
 	public User save (User user)
 	{
-		/*
-		 * (IN `pid` INT, IN `username` VARCHAR(50), IN `pwd` VARCHAR(50), 
-		 * IN `fullname` VARCHAR(50), IN `email` VARCHAR(50), IN `phone` VARCHAR(50), IN `role_id` INT)
-		 */
 		Database db = new Database();
 		try {
 			String sp="call usp_user_save";
