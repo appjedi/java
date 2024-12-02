@@ -42,7 +42,7 @@
         const password = document.getElementById('password').value
         const email = document.getElementById('email').value
         const fullName = document.getElementById('fullName').value
-        const resp = await fetch('http://localhost:8080/auth', {
+        const resp = await fetch('http://localhost:8080/save', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ username, password, email, fullName })
