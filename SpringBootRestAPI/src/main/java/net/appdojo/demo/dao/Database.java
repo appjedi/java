@@ -28,7 +28,7 @@ public class Database {
 	public static void main(String[] args) {
 		//Database db = new Database();
 
-		System.out.println(Database.addQuestionMarks("call test", 3));
+		//System.out.println(Database.addQuestionMarks("call test", 3));
 	}
 
 	public static void testUser() {
