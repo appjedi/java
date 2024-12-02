@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package models;
 
 import javafx.geometry.Insets;
@@ -228,6 +229,8 @@ public class Template {
 	}
 }
 =======
+=======
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 package models;
 
 import javafx.geometry.Insets;
@@ -456,4 +459,7 @@ public class Template {
 		box.setPrefWidth(350);
 	}
 }
+<<<<<<< HEAD
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
+=======
 >>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54

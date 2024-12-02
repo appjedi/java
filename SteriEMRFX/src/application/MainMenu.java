@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package application;
 
 import com.sun.tools.javac.Main;
@@ -201,6 +202,8 @@ public class MainMenu extends Application {
 //        Diagnosis
 
 =======
+=======
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 package application;
 
 import com.sun.tools.javac.Main;
@@ -402,5 +405,8 @@ public class MainMenu extends Application {
 //        Medications Refill
 //        Diagnosis
 
+<<<<<<< HEAD
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
+=======
 >>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 //   Mental Health Referal

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package models;
 
 public class Doctor {
@@ -105,6 +106,8 @@ public class Doctor {
 	
 }
 =======
+=======
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 package models;
 
 public class Doctor {
@@ -210,4 +213,7 @@ public class Doctor {
 	}
 	
 }
+<<<<<<< HEAD
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
+=======
 >>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54

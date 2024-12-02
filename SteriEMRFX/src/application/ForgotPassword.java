@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package application;
 
 import javafx.application.Application;
@@ -188,6 +189,8 @@ public class ForgotPassword extends Application {
 		return textField;
 	}
 =======
+=======
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 package application;
 
 import javafx.application.Application;
@@ -376,5 +379,8 @@ public class ForgotPassword extends Application {
 
 		return textField;
 	}
+<<<<<<< HEAD
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
+=======
 >>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 }

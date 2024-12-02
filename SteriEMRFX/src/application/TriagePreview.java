@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package application;
 
 import java.sql.PreparedStatement;
@@ -139,6 +140,8 @@ public class TriagePreview extends Application{
 	}
 }
 =======
+=======
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 package application;
 
 import java.sql.PreparedStatement;
@@ -278,4 +281,7 @@ public class TriagePreview extends Application{
 		startShuffling();
 	}
 }
+<<<<<<< HEAD
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
+=======
 >>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54

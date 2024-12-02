@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package application;
 
 import javafx.application.Application;
@@ -149,6 +150,8 @@ public class Profile extends Application {
     }
 }
 =======
+=======
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 package application;
 
 import javafx.application.Application;
@@ -298,4 +301,7 @@ public class Profile extends Application {
         this.start(primaryStage);
     }
 }
+<<<<<<< HEAD
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
+=======
 >>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54

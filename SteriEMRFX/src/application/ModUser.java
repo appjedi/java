@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package application;
 
 import javafx.application.Application;
@@ -234,6 +235,8 @@ public class ModUser extends Application{
 	}
 
 =======
+=======
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 package application;
 
 import javafx.application.Application;
@@ -468,5 +471,8 @@ public class ModUser extends Application{
 		return button;
 	}
 
+<<<<<<< HEAD
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
+=======
 >>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 }

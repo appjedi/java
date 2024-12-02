@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 package dao;
 
 import java.sql.Connection;
@@ -370,6 +371,8 @@ public class Database {
     }
 }
 =======
+=======
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
 package dao;
 
 import java.sql.Connection;
@@ -740,4 +743,7 @@ public class Database {
         return false;
     }
 }
+<<<<<<< HEAD
+>>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
+=======
 >>>>>>> 913514eccee8fc89cbd1377c0d9679bc6724ff54
