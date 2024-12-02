@@ -9,11 +9,25 @@ import net.appdojo.demo.models.User;
 public class UserDAO extends Database{
 	public static void main (String[]args)
 	{
+		/*
 		UserDAO dao = new UserDAO();
-		//User user = dao.auth("bob","Test1234");
-		List<User>users=dao.getUsers();
-		for(User user:users)
-			System.out.println(user);
+		User user = dao.auth("bob","Test1234");
+		System.out.println(user);
+		*/
+		testAddUser();
+	}
+	public static void testAddUser()
+	{
+		User user=new User();
+		user.setUserId(24);
+		user.setUsername("javatest");
+		user.setPassword("TestJava");
+		user.setRoleId(2);
+		user.setStatus(1);
+		user.setFullName("Java Spring");
+		user.setEmail("java@spring.net");
+		UserDAO dao = new UserDAO();
+		dao.save(user);
 	}
 	public User getUser(int id)
 	{
@@ -97,12 +111,12 @@ public class UserDAO extends Database{
 			return null;
 		}
 	}
-	public User create (User user)
+	public User save (User user)
 	{
 		Database db = new Database();
 		try {
 			String sp="call usp_user_save";
-			
+			db.query(sp, user.getUserId(),user.getUsername(),user._pw(),user.getFullName(),user.getEmail(),"",user.getRoleId());
 			return user;
 		}catch (Exception ex)
 		{
