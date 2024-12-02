@@ -95,7 +95,7 @@ public class UserDAO extends Database{
 			return null;
 		}
 	}
-	public User create (User user)
+	public User save (User user)
 	{
 		Database db = new Database();
 		try {
