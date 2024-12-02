@@ -12,6 +12,7 @@ public class User {
 	private int status;
 	
 	public User () {
+		this.userId=0;
 		
 	}
 	public User(int userId,String username, String password, String email, String fullName,int roleId, int status) {
@@ -33,7 +34,7 @@ public class User {
 	public Object[]getValues()
 	{
 		Object[]values = {
-				this.userId,this.username,this.password,this.email,this.fullName,this.roleId, this.status
+			this.userId,this.username,this.password,this.email,this.fullName,this.roleId, this.status
 		};
 		return values;
 	}
