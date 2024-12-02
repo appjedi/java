@@ -10,8 +10,10 @@ public class UserDAO extends Database{
 	public static void main (String[]args)
 	{
 		UserDAO dao = new UserDAO();
-		User user = dao.auth("bob","Test1234");
-		System.out.println(user);
+		//User user = dao.auth("bob","Test1234");
+		List<User>users=dao.getUsers();
+		for(User user:users)
+			System.out.println(user);
 	}
 	public User getUser(int id)
 	{

@@ -133,7 +133,7 @@ public class Database {
 		try {
 			if (conn == null)
 				getConnection();
-			if (sql.indexOf("?") < 0) {
+			if (sql.indexOf("?") < 0 && values!=null && values.length>0) {
 				sql=addQuestionMarks(sql,values.length);
 			}
 			PreparedStatement statement = conn.prepareStatement(sql);
@@ -160,7 +160,7 @@ public class Database {
 		try {
 			if (conn == null)
 				getConnection();
-			if (sql.indexOf("?") < 0) {
+			if (sql.indexOf("?") < 0 && values!=null && values.length>0) {
 				sql=addQuestionMarks(sql,values.length);
 			}
 			PreparedStatement statement = conn.prepareStatement(sql);
@@ -221,7 +221,7 @@ public class Database {
 		try {
 			if (conn == null)
 				getConnection();
-			if (query.indexOf("?") < 0) {
+			if (query.indexOf("?") < 0 && values!=null && values.length>0) {
 				query=addQuestionMarks(query,values.length);
 			}
 			PreparedStatement statement = conn.prepareStatement(query);
@@ -233,7 +233,7 @@ public class Database {
 			}
 			return statement.executeQuery();
 		} catch (SQLException e) {
-
+			e.printStackTrace();
 		} finally {
 			// close();
 		}
