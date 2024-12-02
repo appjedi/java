@@ -1811,3 +1811,69 @@ update repo
 2024-12-01 19:00:13,620 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-12-01 19:00:13,620 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\demo\src\test\resources
 >>>>>>> 989b7ca3ba4502aca84d9ee0353b4af172360fd6
+2024-12-01 20:52:56,477 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-01 20:55:22,742 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:3.4.0-SNAPSHOT @ /Users/roberttimlin/Documents/GitHub/java/SpringBootRestAPI/pom.xml.
+2024-12-01 20:55:23,214 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootRestAPI/src/main/java
+2024-12-01 20:55:23,215 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootRestAPI/src/main/resources
+2024-12-01 20:55:23,215 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootRestAPI/src/main/resources
+2024-12-01 20:55:23,215 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBootRestAPI/src/test/java
+2024-12-01 20:55:23,215 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBootRestAPI/src/test/resources
+2024-12-01 20:55:23,215 [Worker-0: Importing Maven projects] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'JavaSE-17', falling back to workspace default
+2024-12-01 20:55:23,271 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2024-12-01 20:55:23,747 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory '/Users/roberttimlin/Documents/GitHub/java/.git'
+2024-12-01 20:55:23,848 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-01 20:55:23,848 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-01 20:55:23,864 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-01 20:55:23,986 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value c56e260-dirty
+2024-12-01 20:55:23,986 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value c56e260-dirty
+2024-12-01 20:55:23,986 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value c56e260760ee9924f34fe8d68ec2c910082d7f1c
+2024-12-01 20:55:23,987 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value c56e260
+2024-12-01 20:55:24,003 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-01 20:55:24,004 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-01 20:55:24,004 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-01 20:55:24,004 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value update
+2024-12-01 20:55:24,004 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value update
+2024-12-01 20:55:24,004 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-01T20:42:55-08:00
+2024-12-01 20:55:24,004 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-01T20:42:55-08:00
+2024-12-01 20:55:24,004 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-01T20:42:55-08:00
+2024-12-01 20:55:24,005 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-01 20:55:24,006 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-01 20:55:24,006 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-01 20:55:24,011 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-01 20:55:24,016 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-01 20:55:24,019 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 32
+2024-12-01 20:55:24,025 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2024-12-01 20:55:24,025 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-01 20:55:24,053 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2024-11-28T06:37:52-08:00
+2024-12-01 20:55:24,053 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 3.4.0-SNAPSHOT
+2024-12-01 20:55:24,077 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value roberts-mbp-2.lan
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tags' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.version' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.host' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.email' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.behind' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.author.time' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.name' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.dirty' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.commit.count' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe-short' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.total.commit.count' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.email' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.short' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.committer.time' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tag' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.name' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.ahead' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.time' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.time' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2024-12-01 20:55:24,078 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.remote.origin.url' in results
+2024-12-01 20:55:24,079 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [/Users/roberttimlin/Documents/GitHub/java/SpringBootRestAPI/target/classes/git.properties] (for project petclinic)...
+2024-12-01 20:55:24,100 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-12-01 20:55:24,106 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-12-01 20:55:24,107 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/roberttimlin/Documents/GitHub/java/SpringBootRestAPI/src/test/resources
