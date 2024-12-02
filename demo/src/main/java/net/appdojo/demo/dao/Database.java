@@ -265,7 +265,6 @@ public class Database {
 			}
 		}
 		str += ")";
-		//System.out.println(str);
 		return str;
 
 	}
