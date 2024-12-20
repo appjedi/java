@@ -665,3 +665,776 @@ update repo
 2024-12-01 21:21:28,250 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-12-01 21:21:28,252 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-12-01 21:21:28,255 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 08:13:55,141 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-02 08:15:26,752 [Worker-22: Auto share git projects] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (753) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-02 08:15:29,186 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:3.4.0-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\pom.xml.
+2024-12-02 08:15:31,759 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-02 08:15:32,090 [Worker-8: Building] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (756) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-02 08:15:32,129 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-02 08:15:32,130 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 08:15:32,208 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-02 08:15:32,441 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 3e5e67e-dirty
+2024-12-02 08:15:32,442 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 3e5e67e-dirty
+2024-12-02 08:15:32,443 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 3e5e67e5aedcc5405baaf386ccc178e420a49243
+2024-12-02 08:15:32,443 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 3e5e67e
+2024-12-02 08:15:32,531 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-02 08:15:32,668 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 08:15:32,734 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 08:15:32,743 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 08:15:33,588 [Worker-22: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:3.4.0-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\pom.xml.
+2024-12-02 08:44:27,084 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+2024-12-02 08:44:27,111 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+2024-12-02 08:44:27,337 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CS342Sprin2023:DesignPattern:0.0.1-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\TomFX2\pom.xml.
+2024-12-02 08:44:27,343 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CS342Sprin2023:DesignPattern:0.0.1-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\TomFX2\pom.xml.
+2024-12-02 08:44:27,358 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom
+2024-12-02 08:44:27,365 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.pom
+2024-12-02 08:44:27,410 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom
+2024-12-02 08:44:27,414 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.pom
+2024-12-02 08:44:27,432 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+2024-12-02 08:44:27,435 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.pom
+2024-12-02 08:44:27,457 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom
+2024-12-02 08:44:27,461 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.pom
+2024-12-02 08:44:27,482 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.pom
+2024-12-02 08:44:27,487 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.pom
+2024-12-02 08:44:27,507 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.pom
+2024-12-02 08:44:27,511 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.pom
+2024-12-02 08:44:27,540 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.pom
+2024-12-02 08:44:27,544 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.pom
+2024-12-02 08:44:27,565 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.pom
+2024-12-02 08:44:27,570 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.pom
+2024-12-02 08:44:27,588 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.pom
+2024-12-02 08:44:27,593 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.pom
+2024-12-02 08:44:27,615 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.pom
+2024-12-02 08:44:27,620 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.pom
+2024-12-02 08:44:27,640 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1.pom
+2024-12-02 08:44:27,643 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1.pom
+2024-12-02 08:44:27,667 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx/19.0.2.1/javafx-19.0.2.1.pom
+2024-12-02 08:44:27,672 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx/19.0.2.1/javafx-19.0.2.1.pom
+2024-12-02 08:44:27,679 [Worker-37: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:19.0.2.1 during dependency collection step for project (use -X to see details)
+2024-12-02 08:44:27,679 [Worker-38: Updating Maven Dependencies] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:19.0.2.1 during dependency collection step for project (use -X to see details)
+2024-12-02 08:44:27,698 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1.pom
+2024-12-02 08:44:27,703 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1.pom
+2024-12-02 08:44:27,730 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1.pom
+2024-12-02 08:44:27,734 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1.pom
+2024-12-02 08:44:27,756 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1.pom
+2024-12-02 08:44:27,760 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1.pom
+2024-12-02 08:44:27,831 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar
+2024-12-02 08:44:27,859 [Worker-38: Updating Maven Dependencies] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar
+2024-12-02 08:44:27,877 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar
+2024-12-02 08:44:27,886 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar
+2024-12-02 08:44:27,898 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar
+2024-12-02 08:44:27,919 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar
+2024-12-02 08:44:27,919 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar
+2024-12-02 08:44:27,919 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar
+2024-12-02 08:44:27,920 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+2024-12-02 08:44:27,923 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar
+2024-12-02 08:44:27,927 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+2024-12-02 08:44:27,931 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar
+2024-12-02 08:44:27,935 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar
+2024-12-02 08:44:27,949 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar
+2024-12-02 08:44:27,951 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1.jar
+2024-12-02 08:44:27,952 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1-win.jar
+2024-12-02 08:44:27,954 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1.jar
+2024-12-02 08:44:27,957 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1.jar
+2024-12-02 08:44:27,963 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1.jar
+2024-12-02 08:44:27,969 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar
+2024-12-02 08:44:27,972 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-win.jar
+2024-12-02 08:44:27,982 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1.jar
+2024-12-02 08:44:27,985 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar
+2024-12-02 08:44:27,987 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1-win.jar
+2024-12-02 08:44:27,988 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1.jar
+2024-12-02 08:44:28,006 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1.jar
+2024-12-02 08:44:28,009 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1.jar
+2024-12-02 08:44:28,071 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1-win.jar
+2024-12-02 08:44:28,078 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1-win.jar
+2024-12-02 08:44:28,086 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1-win.jar
+2024-12-02 08:44:28,191 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1-win.jar
+2024-12-02 08:44:28,345 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-win.jar
+2024-12-02 08:44:28,468 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.pom
+2024-12-02 08:44:28,506 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.pom
+2024-12-02 08:44:28,593 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+2024-12-02 08:44:28,597 [Worker-37: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+2024-12-02 08:44:29,153 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\TomFX2\src\main\resources
+2024-12-02 08:44:29,157 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\TomFX2\src\test\resources
+2024-12-02 08:44:30,093 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1-sources.jar
+2024-12-02 08:44:30,121 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1-sources.jar
+2024-12-02 08:44:30,128 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.7.1
+2024-12-02 08:44:30,179 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar
+2024-12-02 08:44:30,182 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0-sources.jar
+2024-12-02 08:44:30,186 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apiguardian:apiguardian-api:1.1.0
+2024-12-02 08:44:30,238 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2024-12-02 08:44:30,242 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2024-12-02 08:44:30,246 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.2.0
+2024-12-02 08:44:30,295 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1-sources.jar
+2024-12-02 08:44:30,329 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1-sources.jar
+2024-12-02 08:44:30,333 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.7.1
+2024-12-02 08:44:30,591 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1-sources.jar
+2024-12-02 08:44:30,597 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1-sources.jar
+2024-12-02 08:44:30,600 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter:5.9.1
+2024-12-02 08:44:30,677 [Worker-37: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CS342Sprin2023:DesignPattern:0.0.1-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\TomFX2\pom.xml.
+2024-12-02 08:44:30,771 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1-sources.jar
+2024-12-02 08:44:30,823 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\TomFX2\src\main\resources
+2024-12-02 08:44:30,828 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\TomFX2\src\test\resources
+2024-12-02 08:44:30,864 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1-sources.jar
+2024-12-02 08:44:30,868 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-params:5.9.1
+2024-12-02 08:44:30,876 [Worker-37: Updating Maven Dependencies] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:19.0.2.1 during dependency collection step for project (use -X to see details)
+2024-12-02 08:44:30,927 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1-sources.jar
+2024-12-02 08:44:30,950 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1-sources.jar
+2024-12-02 08:44:30,954 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.9.1
+2024-12-02 08:44:31,017 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1-sources.jar
+2024-12-02 08:44:31,038 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1-sources.jar
+2024-12-02 08:44:31,042 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.9.1
+2024-12-02 08:44:31,177 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1-sources.jar
+2024-12-02 08:44:31,265 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1-sources.jar
+2024-12-02 08:44:31,269 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-controls:19.0.2.1
+2024-12-02 08:44:31,275 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-controls:19.0.2.1win
+2024-12-02 08:44:31,426 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-sources.jar
+2024-12-02 08:44:31,727 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-sources.jar
+2024-12-02 08:44:31,732 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-graphics:19.0.2.1
+2024-12-02 08:44:31,736 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-graphics:19.0.2.1win
+2024-12-02 08:44:31,831 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1-sources.jar
+2024-12-02 08:44:31,867 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1-sources.jar
+2024-12-02 08:44:31,871 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-base:19.0.2.1
+2024-12-02 08:44:31,875 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-base:19.0.2.1win
+2024-12-02 08:44:31,969 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1-sources.jar
+2024-12-02 08:44:31,978 [Worker-9: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1-sources.jar
+2024-12-02 08:44:31,982 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-fxml:19.0.2.1
+2024-12-02 08:44:31,986 [Worker-9: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.openjfx:javafx-fxml:19.0.2.1win
+2024-12-02 08:44:32,338 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\TomFX2\src\main\resources
+2024-12-02 08:44:32,344 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\TomFX2\src\test\resources
+2024-12-02 08:45:20,494 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\TomFX2\src\main\resources
+2024-12-02 08:45:20,499 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\TomFX2\src\test\resources
+2024-12-02 08:45:45,858 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CS342Sprin2023:DesignPattern:0.0.1-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\pom.xml.
+2024-12-02 08:45:45,893 [Worker-38: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:19.0.2.1 during dependency collection step for project (use -X to see details)
+2024-12-02 08:45:46,015 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\main\resources
+2024-12-02 08:45:46,017 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\test\resources
+2024-12-02 08:45:46,446 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\main\resources
+2024-12-02 08:45:46,448 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\test\resources
+2024-12-02 08:45:46,498 [Worker-39: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CS342Sprin2023:DesignPattern:0.0.1-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\pom.xml.
+2024-12-02 08:45:46,541 [Worker-39: Updating Maven Dependencies] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:19.0.2.1 during dependency collection step for project (use -X to see details)
+2024-12-02 08:46:05,445 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\main\resources
+2024-12-02 08:46:05,447 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\test\resources
+2024-12-02 08:46:14,527 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\main\resources
+2024-12-02 08:46:14,530 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\test\resources
+2024-12-02 08:46:20,160 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\main\resources
+2024-12-02 08:46:20,163 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\test\resources
+2024-12-02 08:46:26,246 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\main\resources
+2024-12-02 08:46:26,248 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\test\resources
+2024-12-02 08:46:36,669 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [642])
+2024-12-02 08:46:36,672 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-12-02 08:46:36,673 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-12-02 08:46:36,673 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-12-02 08:46:36,673 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-12-02 08:46:36,674 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-12-02 08:46:36,674 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-12-02 08:46:36,674 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-12-02 08:46:36,674 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-12-02 08:46:36,675 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-12-02 08:46:36,675 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-12-02 08:46:36,675 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-12-02 08:46:36,675 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-12-02 08:46:36,676 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-12-02 08:46:36,676 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-12-02 08:46:36,676 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-12-02 08:46:36,676 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-12-02 08:46:36,676 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-12-02 08:46:36,677 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-12-02 08:46:36,677 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-12-02 08:46:36,677 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-12-02 08:46:36,677 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-12-02 08:46:36,677 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-12-02 08:46:36,678 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-12-02 08:46:36,678 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-12-02 08:46:36,678 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-12-02 08:46:36,679 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-12-02 08:46:36,679 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-12-02 08:46:36,679 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-12-02 08:46:36,680 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-12-02 08:46:36,680 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-12-02 08:46:36,680 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-12-02 08:46:36,680 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-12-02 08:46:36,681 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-12-02 08:46:36,681 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-12-02 08:46:36,681 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-12-02 08:46:36,681 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-12-02 08:46:36,682 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-12-02 08:46:36,682 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-12-02 08:46:36,682 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-12-02 08:46:36,682 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-12-02 08:46:36,683 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-12-02 08:46:36,683 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-12-02 08:46:36,683 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-12-02 08:46:36,683 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-12-02 08:46:36,685 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [16])
+2024-12-02 08:46:36,686 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-12-02 08:46:36,686 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1007])
+2024-12-02 08:46:36,687 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-12-02 08:46:36,687 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [34])
+2024-12-02 08:46:36,688 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-12-02 08:46:36,688 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [29])
+2024-12-02 08:46:36,688 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-12-02 08:46:36,688 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [78])
+2024-12-02 08:46:36,689 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-12-02 08:46:36,689 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2024-12-02 08:46:36,690 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-12-02 08:46:36,690 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2024-12-02 08:46:36,691 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\timli\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-12-02 08:46:36,694 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\timli\Documents\GitHub\java\SteriMelodyFX":
+2024-12-02 08:46:36,695 [Worker-9: Launching Executing clean in C__Users_timli_Documents_GitHub_java_SteriMelodyFX] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2024-12-02 08:46:43,942 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\main\resources
+2024-12-02 08:46:43,946 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\test\resources
+2024-12-02 08:46:59,968 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\main\resources
+2024-12-02 08:46:59,970 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriMelodyFX\src\test\resources
+2024-12-02 08:47:57,671 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CS342Sprin2023:DesignPattern:0.0.1-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\SteriEMRFX\pom.xml.
+2024-12-02 08:47:57,706 [Worker-35: Building] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:19.0.2.1 during dependency collection step for project (use -X to see details)
+2024-12-02 08:47:57,836 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\main\resources
+2024-12-02 08:47:57,838 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\test\resources
+2024-12-02 08:47:58,690 [Worker-35: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CS342Sprin2023:DesignPattern:0.0.1-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\SteriEMRFX\pom.xml.
+2024-12-02 08:47:58,720 [Worker-35: Updating Maven Dependencies] WARN  o.a.m.r.i.DefaultArtifactDescriptorReader - 6 problems were encountered while building the effective model for org.openjfx:javafx-controls:jar:19.0.2.1 during dependency collection step for project (use -X to see details)
+2024-12-02 08:47:59,200 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\main\resources
+2024-12-02 08:47:59,204 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\test\resources
+2024-12-02 08:48:13,032 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\main\resources
+2024-12-02 08:48:13,035 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\test\resources
+2024-12-02 08:48:25,570 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\main\resources
+2024-12-02 08:48:25,573 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\test\resources
+2024-12-02 08:48:40,958 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\main\resources
+2024-12-02 08:48:40,960 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\test\resources
+2024-12-02 08:48:52,203 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\main\resources
+2024-12-02 08:48:52,205 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SteriEMRFX\src\test\resources
+2024-12-02 09:28:55,041 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:spring-petclinic:3.4.0-SNAPSHOT @ C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\pom.xml.
+2024-12-02 09:28:55,570 [Worker-47: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8.pom
+2024-12-02 09:28:55,670 [Worker-47: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8.pom
+2024-12-02 09:28:55,780 [Worker-47: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8.pom
+2024-12-02 09:28:55,806 [Worker-47: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8.pom
+2024-12-02 09:28:56,537 [Worker-47: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8.jar
+2024-12-02 09:28:56,633 [Worker-47: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8.jar
+2024-12-02 09:28:56,658 [Worker-47: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8.jar
+2024-12-02 09:28:56,870 [Worker-47: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8.jar
+2024-12-02 09:28:57,789 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-02 09:28:58,287 [Worker-47: Building] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (844) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-02 09:28:58,330 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-02 09:28:58,332 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 09:28:58,410 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-02 09:28:58,690 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value bad6e02-dirty
+2024-12-02 09:28:58,690 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value bad6e02-dirty
+2024-12-02 09:28:58,691 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value bad6e029e0cd5a83d3358efebb018ba8b2a6133d
+2024-12-02 09:28:58,691 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value bad6e02
+2024-12-02 09:28:58,761 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-02 09:28:58,762 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-02 09:28:58,762 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 09:28:58,764 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Merge branch 'main' of https://github.com/appjedi/java
+2024-12-02 09:28:58,764 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Merge branch 'main' of https://github.com/appjedi/java
+2024-12-02 09:28:58,765 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:28:58,765 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:28:58,765 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:28:58,767 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-02 09:28:58,769 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-02 09:28:58,773 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-02 09:28:58,796 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-02 09:28:58,815 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-02 09:28:58,820 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 53
+2024-12-02 09:28:58,832 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 3
+2024-12-02 09:28:58,832 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-02 09:28:58,857 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8-sources.jar
+2024-12-02 09:28:58,910 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2024-11-28T06:37:52-08:00
+2024-12-02 09:28:58,911 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 3.4.0-SNAPSHOT
+2024-12-02 09:28:58,914 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value MSI
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tags' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.version' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.host' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.email' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.behind' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.author.time' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.name' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.dirty' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.commit.count' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe-short' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.total.commit.count' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.email' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.short' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.committer.time' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tag' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.name' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.ahead' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.time' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.time' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2024-12-02 09:28:58,916 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.remote.origin.url' in results
+2024-12-02 09:28:58,918 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] (for project petclinic)...
+2024-12-02 09:28:58,979 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8-sources.jar
+2024-12-02 09:28:58,994 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:28:59,061 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:28:59,067 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:28:59,097 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8-sources.jar
+2024-12-02 09:28:59,317 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/10.2.0.jre8/mssql-jdbc-10.2.0.jre8-sources.jar
+2024-12-02 09:28:59,321 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.microsoft.sqlserver:mssql-jdbc:10.2.0.jre8
+2024-12-02 09:29:00,387 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-02 09:29:00,389 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-02 09:29:00,390 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 09:29:00,503 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-02 09:29:00,862 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value bad6e02-dirty
+2024-12-02 09:29:00,862 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value bad6e02-dirty
+2024-12-02 09:29:00,862 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value bad6e029e0cd5a83d3358efebb018ba8b2a6133d
+2024-12-02 09:29:00,863 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value bad6e02
+2024-12-02 09:29:01,061 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-02 09:29:01,061 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-02 09:29:01,061 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 09:29:01,062 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Merge branch 'main' of https://github.com/appjedi/java
+2024-12-02 09:29:01,062 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Merge branch 'main' of https://github.com/appjedi/java
+2024-12-02 09:29:01,062 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:29:01,062 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:29:01,062 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:29:01,063 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-02 09:29:01,065 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-02 09:29:01,070 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-02 09:29:01,340 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-02 09:29:01,381 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-02 09:29:01,409 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 53
+2024-12-02 09:29:01,413 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 3
+2024-12-02 09:29:01,414 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-02 09:29:01,418 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2024-11-28T06:37:52-08:00
+2024-12-02 09:29:01,418 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 3.4.0-SNAPSHOT
+2024-12-02 09:29:01,418 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value MSI
+2024-12-02 09:29:01,418 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tags' in results
+2024-12-02 09:29:01,419 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.version' in results
+2024-12-02 09:29:01,419 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2024-12-02 09:29:01,420 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.host' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.email' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.behind' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.author.time' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.name' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.dirty' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.commit.count' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe-short' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.total.commit.count' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.email' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.short' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.committer.time' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tag' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.name' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.ahead' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.time' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.time' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.remote.origin.url' in results
+2024-12-02 09:29:01,422 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] (for project petclinic)...
+2024-12-02 09:29:01,434 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:29:01,445 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:29:01,449 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:29:22,809 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:29:22,812 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:29:22,817 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:29:22,820 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:30:01,600 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:30:01,603 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:30:01,623 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:30:01,625 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:30:24,545 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:30:24,550 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:30:24,554 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:30:24,557 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:32:29,939 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:32:29,942 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:32:29,949 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:32:29,952 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:33:35,613 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:33:35,617 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:33:35,622 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:33:35,624 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:34:09,294 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:34:09,298 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:34:09,301 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:34:09,305 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:34:28,029 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:34:28,033 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:34:28,036 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:34:28,038 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:39:30,850 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:39:30,853 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:39:30,857 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:39:30,860 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:40:09,235 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:40:09,238 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:40:09,241 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:40:09,244 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:40:27,579 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:40:27,583 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:40:27,588 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:40:27,591 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:40:54,869 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:40:54,873 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:40:54,876 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:40:54,879 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:41:20,264 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:41:20,267 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:41:20,270 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:41:20,273 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:41:40,369 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:41:40,372 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:41:40,374 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:41:40,376 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:53:08,418 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:53:08,423 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:53:08,428 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:53:08,431 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:53:15,910 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-02 09:53:15,911 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-02 09:53:15,912 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 09:53:15,924 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-02 09:53:16,003 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value bad6e02-dirty
+2024-12-02 09:53:16,003 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value bad6e02-dirty
+2024-12-02 09:53:16,003 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value bad6e029e0cd5a83d3358efebb018ba8b2a6133d
+2024-12-02 09:53:16,003 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value bad6e02
+2024-12-02 09:53:16,057 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-02 09:53:16,057 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-02 09:53:16,057 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 09:53:16,057 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Merge branch 'main' of https://github.com/appjedi/java
+2024-12-02 09:53:16,057 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Merge branch 'main' of https://github.com/appjedi/java
+2024-12-02 09:53:16,057 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:53:16,057 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:53:16,057 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:53:16,058 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-02 09:53:16,059 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-02 09:53:16,060 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-02 09:53:16,077 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-02 09:53:16,091 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-02 09:53:16,093 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 53
+2024-12-02 09:53:16,094 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2024-12-02 09:53:16,094 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-02 09:53:16,097 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2024-11-28T06:37:52-08:00
+2024-12-02 09:53:16,097 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 3.4.0-SNAPSHOT
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value MSI
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tags' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.version' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.host' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.email' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.behind' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.author.time' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.name' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.dirty' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.commit.count' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe-short' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.total.commit.count' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.email' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.short' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.committer.time' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tag' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.name' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.ahead' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.time' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.time' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.remote.origin.url' in results
+2024-12-02 09:53:16,098 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Reading existing properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] (for project petclinic)...
+2024-12-02 09:53:16,099 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] (for project petclinic)...
+2024-12-02 09:53:16,104 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:53:16,108 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:53:16,111 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:53:28,659 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 09:53:28,662 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:53:28,665 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:53:28,668 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 09:53:39,003 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-02 09:53:39,005 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-02 09:53:39,005 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 09:53:39,016 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-02 09:53:39,070 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value bad6e02-dirty
+2024-12-02 09:53:39,070 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value bad6e02-dirty
+2024-12-02 09:53:39,070 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value bad6e029e0cd5a83d3358efebb018ba8b2a6133d
+2024-12-02 09:53:39,070 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value bad6e02
+2024-12-02 09:53:39,112 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-02 09:53:39,112 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-02 09:53:39,112 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-02 09:53:39,112 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Merge branch 'main' of https://github.com/appjedi/java
+2024-12-02 09:53:39,112 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Merge branch 'main' of https://github.com/appjedi/java
+2024-12-02 09:53:39,113 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:53:39,113 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:53:39,113 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-02T08:17:01-08:00
+2024-12-02 09:53:39,113 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-02 09:53:39,114 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-02 09:53:39,115 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-02 09:53:39,130 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-02 09:53:39,146 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-02 09:53:39,148 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 53
+2024-12-02 09:53:39,151 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2024-12-02 09:53:39,151 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-02 09:53:39,153 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2024-11-28T06:37:52-08:00
+2024-12-02 09:53:39,153 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 3.4.0-SNAPSHOT
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value MSI
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tags' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.version' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.host' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.email' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.behind' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.author.time' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.name' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.dirty' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.commit.count' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe-short' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.total.commit.count' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.email' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.short' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.committer.time' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tag' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.name' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.ahead' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.time' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.time' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.remote.origin.url' in results
+2024-12-02 09:53:39,154 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Reading existing properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] (for project petclinic)...
+2024-12-02 09:53:39,155 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] is up-to-date (for module petclinic)...
+2024-12-02 09:53:39,158 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 09:53:39,162 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 09:53:39,165 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-02 12:31:47,465 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-02 12:31:47,475 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-02 12:31:47,490 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-02 12:31:47,494 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-06 16:41:20,264 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-06 16:41:20,938 [Worker-2: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (6213) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-06 16:42:16,020 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-06 16:42:16,212 [Worker-9: Building] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (6216) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-06 16:42:16,240 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-06 16:42:16,241 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-06 16:42:16,291 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-06 16:42:16,409 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 1c1176b-dirty
+2024-12-06 16:42:16,409 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 1c1176b-dirty
+2024-12-06 16:42:16,410 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 1c1176b0dad0f11871be15e1ea0d5c0f65832661
+2024-12-06 16:42:16,410 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 1c1176b
+2024-12-06 16:42:16,451 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-06 16:42:16,452 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-06 16:42:16,452 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-06 16:42:16,452 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Update Database.java
+2024-12-06 16:42:16,453 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Update Database.java
+2024-12-06 16:42:16,453 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-02T12:32:27-08:00
+2024-12-06 16:42:16,453 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-02T12:32:27-08:00
+2024-12-06 16:42:16,454 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-02T12:32:27-08:00
+2024-12-06 16:42:16,454 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-06 16:42:16,457 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-06 16:42:16,460 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-06 16:42:16,474 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-06 16:42:16,487 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-06 16:42:16,491 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 54
+2024-12-06 16:42:16,500 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2024-12-06 16:42:16,500 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-06 16:42:16,549 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2024-11-28T06:37:52-08:00
+2024-12-06 16:42:16,549 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 3.4.0-SNAPSHOT
+2024-12-06 16:42:16,552 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value MSI
+2024-12-06 16:42:16,553 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tags' in results
+2024-12-06 16:42:16,553 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.version' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.host' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.email' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.behind' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.author.time' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.name' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.dirty' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.commit.count' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe-short' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.total.commit.count' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.email' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.short' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.committer.time' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tag' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.name' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.ahead' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.time' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.time' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2024-12-06 16:42:16,554 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.remote.origin.url' in results
+2024-12-06 16:42:16,556 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Reading existing properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] (for project petclinic)...
+2024-12-06 16:42:16,559 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Writing properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] (for project petclinic)...
+2024-12-06 16:42:16,643 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-06 16:42:16,652 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-06 16:42:16,656 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-06 16:42:19,290 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-06 16:42:19,296 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-06 16:42:19,302 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-06 16:42:19,321 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-06 16:42:23,230 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-06 16:42:23,233 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-06 16:42:23,236 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-06 16:42:23,239 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-06 16:43:39,183 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-06 16:43:39,186 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-06 16:43:39,191 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-06 16:43:39,194 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:08:08,980 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-15 16:08:10,592 [Worker-0: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (804) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-15 16:18:43,338 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - dotGitDirectory 'C:\Users\timli\Documents\GitHub\java\.git'
+2024-12-15 16:18:43,612 [Worker-30: Building] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (839) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'
+2024-12-15 16:18:43,639 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.name with value Bob T
+2024-12-15 16:18:43,641 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-15 16:18:43,687 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.branch with value main
+2024-12-15 16:18:43,802 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe with value 1c1176b-dirty
+2024-12-15 16:18:43,803 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.describe-short with value 1c1176b-dirty
+2024-12-15 16:18:43,803 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id with value 1c1176b0dad0f11871be15e1ea0d5c0f65832661
+2024-12-15 16:18:43,803 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.id.abbrev with value 1c1176b
+2024-12-15 16:18:43,848 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.dirty with value true
+2024-12-15 16:18:43,850 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.name with value Bob T
+2024-12-15 16:18:43,850 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.user.email with value 54815862+appjedi@users.noreply.github.com
+2024-12-15 16:18:43,850 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.full with value Update Database.java
+2024-12-15 16:18:43,851 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.message.short with value Update Database.java
+2024-12-15 16:18:43,851 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.time with value 2024-12-02T12:32:27-08:00
+2024-12-15 16:18:43,851 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.author.time with value 2024-12-02T12:32:27-08:00
+2024-12-15 16:18:43,852 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.commit.committer.time with value 2024-12-02T12:32:27-08:00
+2024-12-15 16:18:43,852 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.remote.origin.url with value https://github.com/appjedi/java.git
+2024-12-15 16:18:43,855 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tags with value 
+2024-12-15 16:18:43,858 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.tag with value 
+2024-12-15 16:18:43,870 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.name with value 
+2024-12-15 16:18:43,882 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.closest.tag.commit.count with value 
+2024-12-15 16:18:43,887 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.total.commit.count with value 54
+2024-12-15 16:18:43,895 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.ahead with value 0
+2024-12-15 16:18:43,895 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.local.branch.behind with value 0
+2024-12-15 16:18:43,952 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.time with value 2024-11-28T06:37:52-08:00
+2024-12-15 16:18:43,952 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.version with value 3.4.0-SNAPSHOT
+2024-12-15 16:18:43,955 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Collected git.build.host with value MSI
+2024-12-15 16:18:43,957 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tags' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.version' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.branch' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.host' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.email' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.behind' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.author.time' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.name' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.dirty' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.commit.count' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.user.name' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.abbrev' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe-short' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.total.commit.count' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.id.describe' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.user.email' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.short' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.committer.time' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.tag' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.closest.tag.name' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.local.branch.ahead' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.time' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.build.time' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.commit.message.full' in results
+2024-12-15 16:18:43,958 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - including property 'git.remote.origin.url' in results
+2024-12-15 16:18:43,960 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Reading existing properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] (for project petclinic)...
+2024-12-15 16:18:43,962 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Properties file [C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\target\classes\git.properties] is up-to-date (for module petclinic)...
+2024-12-15 16:18:44,022 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:18:44,033 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:18:44,037 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:20:24,404 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:20:24,408 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:20:24,423 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:20:24,427 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:22:51,501 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:22:51,510 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:22:51,514 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:22:51,518 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:24:29,870 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:24:29,875 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:24:29,878 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:24:29,881 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:24:41,609 [Worker-12: Launching Database (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:24:41,613 [Worker-12: Launching Database (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:24:41,617 [Worker-12: Launching Database (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:24:41,619 [Worker-12: Launching Database (1)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:28:42,246 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:28:42,249 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:28:42,252 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:28:42,254 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:28:44,237 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:28:44,241 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:28:44,245 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:28:44,248 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:29:19,980 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:29:19,982 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:29:19,985 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:29:19,988 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:35:46,625 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:35:46,628 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:35:46,631 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:35:46,634 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:40:34,468 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:40:34,472 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:40:34,477 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:40:34,481 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:40:55,838 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:40:55,841 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:40:55,843 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:40:55,846 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:41:24,740 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:41:24,742 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:41:24,744 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:41:24,747 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:41:30,162 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:41:30,165 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:41:30,168 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:41:30,171 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:41:50,688 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:41:50,690 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:41:50,692 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:41:50,695 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:42:08,900 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:42:08,904 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:42:08,907 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:42:08,909 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 16:47:40,996 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 16:47:41,000 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 16:47:41,005 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 16:47:41,008 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 17:05:49,107 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 17:05:49,111 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 17:05:49,116 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 17:05:49,120 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 17:08:10,580 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 17:08:10,582 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 17:08:10,586 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 17:08:10,589 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 17:10:27,773 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 17:10:27,776 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 17:10:27,780 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 17:10:27,782 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 17:10:35,263 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 17:10:35,267 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 17:10:35,271 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 17:10:35,273 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 17:12:37,279 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 17:12:37,283 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 17:12:37,285 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 17:12:37,289 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-15 17:12:53,983 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Skip mojo execution on incremental builds.
+2024-12-15 17:12:53,986 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-15 17:12:53,988 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-15 17:12:53,990 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\timli\Documents\GitHub\java\SpringBootRestAPI\src\test\resources
+2024-12-16 12:58:13,994 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-16 12:58:14,696 [Worker-0: Decoration Calculation] WARN  org.eclipse.jgit.util.FS_Win32 - Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\timli', return code '1', error message '<3>WSL (2055) ERROR: CreateProcessCommon:559: execvpe(/bin/bash) failed: No such file or directory
+'

@@ -20,11 +20,12 @@ public class Database {
 	/*
 	 jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=your_database_name;user=your_username;password=your_password;
 	 */
-	private String[][] connections = { { "jdbc:mysql://localhost/test", "root", " " ,"com.mysql.cj.jdbc.Driver"},
-			{ "jdbc:mysql://appdojo.net/appjedin_training", "appjedin_dba", "$Data2022","com.mysql.cj.jdbc.Driver" },
+	private String[][] connections = {
+			{ "jdbc:mysql://localhost/test", "root", "Test1" ,"com.mysql.cj.jdbc.Driver"},
+			{ "jdbc:mysql://127.0.0.1/training", "root", "Test1234" ,"com.mysql.cj.jdbc.Driver"},
 			{ "jdbc:sqlserver://localhost\\\\SQLEXPRESS;databaseName=dev", "devuser", "Test1234","com.microsoft.sqlserver.jdbc.SQLServerDriver" }
 	};
-	int connIndex = 2;
+	int connIndex = 1;
 	String memoryURL = "jdbc:sqlite::memory:";
 	private Connection conn;
 
@@ -37,14 +38,14 @@ public class Database {
 	public static void testUser() {
 		Database db = new Database();
 		try {
-			ResultSet rs = db.getResultSet("SELECT * FROM users");
+			ResultSet rs = db.getResultSet("SELECT * FROM items");
 
 			if (rs == null || !rs.next()) {
 				System.err.println("Query failed!");
 				return;
 			}
 			do {
-				System.out.println(rs.getString("username"));
+				System.out.println(rs.getString(3));
 			} while (rs.next());
 		} catch (Exception ex) {
 			ex.printStackTrace();

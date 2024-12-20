@@ -8,10 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ch.qos.logback.core.joran.spi.HttpUtil.RequestMethod;
 import net.appdojo.demo.dao.UserDAO;
 import net.appdojo.demo.models.User;
 
@@ -39,7 +37,7 @@ public class APIController {
 		return str;
 	}
 
-	@PostMapping("/auth")
+	@PostMapping("/api/auth")
 	@CrossOrigin()
 	public User auth(@RequestBody User user) {
 		try {

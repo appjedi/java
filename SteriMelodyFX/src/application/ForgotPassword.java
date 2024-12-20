@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 package application;
 
 import com.mysql.cj.log.Log;

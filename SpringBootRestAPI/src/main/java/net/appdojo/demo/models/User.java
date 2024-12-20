@@ -6,8 +6,6 @@ public class User {
 	private String password;
 	private String email;
 	private String fullName;
-	
-
 	private int roleId;
 	private int status;
 	
@@ -15,7 +13,14 @@ public class User {
 		this.userId=0;
 		
 	}
-	public User(int userId,String username, String password, String email, String fullName,int roleId, int status) {
+	/*
+	 * 
+	 CREATE TABLE users (
+	 	INT 
+	 )
+	 */
+	public User(int userId,String username, String password, String email, 
+			String fullName,int roleId, int status) {
 		super();
 		this.userId=userId;
 		this.username = username;
@@ -31,7 +36,7 @@ public class User {
 		return "User [userId=" + userId + ", username=" + username + ", password=" + password + ", email=" + email
 				+ ", fullName=" + fullName + ", roleId=" + roleId + ", status=" + status + "]";
 	}
-	public Object[]getValues()
+	public Object[]toArray()
 	{
 		Object[]values = {
 			this.userId,this.username,this.password,this.email,this.fullName,this.roleId, this.status

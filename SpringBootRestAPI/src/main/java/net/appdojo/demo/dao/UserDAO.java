@@ -54,6 +54,16 @@ public class UserDAO extends Database{
 			return null;
 		}
 	}
+	/*
+	 * 
+	 CREATE TABLE users (
+	 	id INT PRIMARY KEY AUTO_INCREMENT,
+	 	email VARCHAR(255),
+	 	username VARCHAR(255),
+	 	full_name VARCHAR(255),
+	 	status INT,
+	 	role_id INT);
+	 */
 	public User auth(String un, String pw)
 	{
 		Database db = new Database();
