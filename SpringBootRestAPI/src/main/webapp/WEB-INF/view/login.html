@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script>
+      let users
+      let user
+      async function pageLoad() {
+        const resp = await fetch('http://localhost:8080/users')
+        users = await resp.json()
+        console.log(users)
+      }
+      async function auth() {
+        const username = document.getElementById('username').value
+        const password = document.getElementById('password').value
+        const resp = await fetch('http://localhost:8080/api/auth', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ username, password })
+        })
+        user = await resp.json()
+        console.log('RESP:', user)
+        if (user.userId > 0) {
+          localStorage.setItem('authUser', JSON.stringify(user))
+          /*
+              document.getElementById('logout').style.display = 'block'
+              document.getElementById('login').style.display = 'none'
+              document.getElementById('users').style.display = 'block'
+              */
+        } else {
+          alert('Invalid credentials')
+        }
+      }
+      async function save() {
+        const username = document.getElementById('username').value
+        const password = document.getElementById('password').value
+        const email = document.getElementById('email').value
+        const fullName = document.getElementById('fullName').value
+        const resp = await fetch('http://localhost:8080/save', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ username, password, email, fullName })
+        })
+        user = await resp.json()
+        console.log('RESP:', user)
+        if (user.userId > 0) {
+          localStorage.setItem('authUser', JSON.stringify(user)) /*
+                document.getElementById('logout').style.display = 'block'
+                document.getElementById('login').style.display = 'none'
+                document.getElementById('users').style.display = 'block' */
+        } else {
+          alert('Invalid credentials')
+        }
+      }
+    </script>
+  </head>
+  <body onload="pageLoad()">
+    <div>
+      <div>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          id="username"
+        />
+      </div>
+      <div>
+        <input
+          type="password"
+          name="password"
+          placeholder="password"
+          id="password"
+        />
+      </div>
+      <div>
+        <button onclick="auth()">Login</button>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="fullName"
+          placeholder="Full Name"
+          id="fullName"
+        />
+      </div>
+
+      <div>
+        <input type="email" name="email" placeholder="email" id="email" />
+      </div>
+      <div>
+        <button onclick="save()">Save</button>
+      </div>
+    </div>
+  </body>
+</html>

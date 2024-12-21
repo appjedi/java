@@ -18,18 +18,6 @@ import net.appdojo.demo.models.User;
 @RestController
 public class APIController {
 	UserDAO userDAO = new UserDAO();
-
-	// One syntax to implement a
-	// GET method
-	@GetMapping("/")
-	public String home() {
-		String str = "<html><body><font color=\"green\">" + "<h1>Login:</h1>" + "<form action='user' method='post'>"
-				+ "<div><input type='text' name='username' placeholder='username'/></div>"
-				+ "<div><input type='password' name='password' placeholder='password'/></div>"
-				+ "<div><button>Login</button></form>" + "</font></body></html>";
-		return str;
-	}
-
 	@GetMapping("/login")
 	public String loginForm() {
 		String str = "<html><body><font color=\"green\">" + "<h1>Login:</h1>" + "<form action='/auth' method='post'>"
@@ -39,7 +27,7 @@ public class APIController {
 		return str;
 	}
 
-	@PostMapping("/auth")
+	@PostMapping("/api/auth")
 	@CrossOrigin()
 	public User auth(@RequestBody User user) {
 		try {
@@ -100,7 +88,8 @@ public class APIController {
 	}
 
 	@GetMapping("/users")
-	@CrossOrigin(origins = "http://127.0.0.1:5500")
+	//@CrossOrigin(origins = "http://127.0.0.1:5500")
+	@CrossOrigin()
 	public List<User> getUsers() {
 
 		try {
