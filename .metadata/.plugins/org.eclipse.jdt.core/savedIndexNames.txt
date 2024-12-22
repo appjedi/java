@@ -111,7 +111,6 @@ INDEX VERSION 1.134+/Users/roberttimlin/Documents/GitHub/java/.metadata/.plugins
 1556822245.index
 652706342.index
 1296046081.index
-789210118.index
 2252760723.index
 2131202388.index
 4153894866.index
@@ -165,8 +164,8 @@ INDEX VERSION 1.134+/Users/roberttimlin/Documents/GitHub/java/.metadata/.plugins
 1944023487.index
 366942738.index
 3460771630.index
-227506529.index
 2370782689.index
+227506529.index
 249582576.index
 4272494380.index
 2212957729.index
