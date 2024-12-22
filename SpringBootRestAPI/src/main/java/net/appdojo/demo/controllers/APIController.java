@@ -19,7 +19,6 @@ import net.appdojo.demo.models.User;
 public class APIController {
 	UserDAO userDAO = new UserDAO();
 
-
 	@PostMapping("/api/auth")
 	@CrossOrigin()
 	public User auth(@RequestBody User user) {
@@ -81,7 +80,7 @@ public class APIController {
 	}
 
 	@GetMapping("/api/users")
-	//@CrossOrigin(origins = "http://127.0.0.1:5500")
+	// @CrossOrigin(origins = "http://127.0.0.1:5500")
 	@CrossOrigin()
 	public List<User> getUsers() {
 

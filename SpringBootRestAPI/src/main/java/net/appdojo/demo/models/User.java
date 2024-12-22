@@ -29,7 +29,6 @@ public class User {
 	@Override
 	public String toString() {
 		return String.format(TO_STRING,this.userId,this.username, this.email,this.fullName,this.roleId, this.status);
-
 	}
 	private static String JSON="{'userId':%d, 'username':'%s', 'email':'%s','fullName':'%s','roleId':%d, 'status':%d}";
 	public String getJson ()
