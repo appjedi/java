@@ -18,7 +18,6 @@ public class WebController {
 		model.setViewName("index");
 		model.addObject("test", "Hello World");
 		return model;
-		// return "index";
 	}
 
 	@GetMapping("/users")
@@ -27,7 +26,6 @@ public class WebController {
 		model.addObject("userList", userDAO.getUsers());
 		model.addObject("test", "Hello World");
 		return model;
-		// return "index";
 	}
 
 	@GetMapping("/login")
@@ -36,7 +34,6 @@ public class WebController {
 
 		model.setViewName("login");
 		return model;
-		// return "index";
 	}
 
 	@PostMapping(path = "/auth", consumes = "application/x-www-form-urlencoded;charset=UTF-8")
