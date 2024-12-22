@@ -8,17 +8,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import net.appdojo.demo.models.User;
 import net.appdojo.demo.services.MainService;
 
-@RestController
+@RestController()
+@RequestMapping("/api")
 public class APIController {
 	@Autowired
 	MainService service;
 
-	@PostMapping("/api/auth")
+	@PostMapping("/auth")
 	@CrossOrigin()
 	public User auth(@RequestBody User user) {
 		try {
@@ -78,7 +80,7 @@ public class APIController {
 		}
 	}
 
-	@GetMapping("/api/users")
+	@GetMapping("/users")
 	// @CrossOrigin(origins = "http://127.0.0.1:5500")
 	@CrossOrigin()
 	public List<User> getUsers() {
