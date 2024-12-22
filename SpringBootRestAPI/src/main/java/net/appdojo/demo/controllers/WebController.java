@@ -38,8 +38,8 @@ public class WebController {
 	    //return "index";
 	  }
 	  @PostMapping(path = "/auth",consumes = "application/x-www-form-urlencoded;charset=UTF-8")
-	  @ResponseBody
-	  public String  auth(User user) {
+
+	  public ModelAndView auth(User user,ModelAndView model) {
 			try {
 				System.out.printf("1. post auth: \n%s\n", user);
 				User authUser = userDAO.auth(user.getUsername(), user._pw());
@@ -49,16 +49,23 @@ public class WebController {
 					user.setUserId(0);
 					user.setRoleId(0);
 					user.setFullName("Auth Failed!");
-					return user.toString();
+				    model.setViewName("login");
+				    model.addObject("errorMessage", "Invalid login");
+					return model;
 				}
-				return authUser.toString();
+			    model.setViewName("dashboard");
+			    model.addObject("user",authUser);
+			    return model;
 			} catch (Exception ex) {
 				System.err.println("post auth error:" + ex);
 				user.setStatus(-1);
 				user.setUserId(0);
 				user.setRoleId(0);
 				user.setFullName("error:" + ex.getMessage());
-				return user.toString();
+			    model.setViewName("login");
+			    model.addObject("errorMessage", ex.getMessage());
+				return model;
+
 			}
 		}
 }

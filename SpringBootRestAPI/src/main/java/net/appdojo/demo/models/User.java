@@ -31,6 +31,11 @@ public class User {
 		return "User [userId=" + userId + ", username=" + username + ", password=" + password + ", email=" + email
 				+ ", fullName=" + fullName + ", roleId=" + roleId + ", status=" + status + "]";
 	}
+	private static String JSON="{'userId':%d, 'username':'%s', 'email':'%s','fullName':'%s','roleId':%d, 'status':%d}";
+	public String getJson ()
+	{
+		return String.format(JSON,this.userId,this.username, this.email,this.fullName,this.roleId, this.status);
+	}
 	public Object[]getValues()
 	{
 		Object[]values = {
