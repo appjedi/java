@@ -14,9 +14,9 @@ public class Database {
 	 * private String jdbcURL = "jdbc:mysql://127.0.0.1:3306/mission_emr"; private
 	 * String jdbcUsername = "root"; private String jdbcPassword = "Password321";
 	 */
-	private String jdbcURL = "jdbc:mysql://localhost/test";
-	private String jdbcUsername = "root";
-	private String jdbcPassword = "";
+	private static String jdbcURL = "jdbc:mysql://localhost/test";
+	private static String jdbcUsername = "root";
+	private static String jdbcPassword = "";
 	/*
 	 jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=your_database_name;user=your_username;password=your_password;
 	 */
