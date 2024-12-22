@@ -15972,3 +15972,12 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-21 16:44:47.155
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-21 20:11:04.858
+!MESSAGE [Info]	ESLint server running in node v18.17.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-21 20:11:04.873
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.1.6 from path "/Users/roberttimlin/.p2/pool/plugins/org.eclipse.wildwebdeveloper_1.1.1.202308101949/node_modules/typescript/lib/tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-21 20:11:04.881
+!MESSAGE [Info]	Typescript Server version info: {version=5.1.6, source=user-setting}
