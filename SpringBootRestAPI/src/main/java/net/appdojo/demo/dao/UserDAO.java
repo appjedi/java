@@ -4,8 +4,10 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.appdojo.demo.models.User;
+import org.springframework.stereotype.Component;
 
+import net.appdojo.demo.models.User;
+@Component
 public class UserDAO extends Database{
 	public static void main (String[]args)
 	{

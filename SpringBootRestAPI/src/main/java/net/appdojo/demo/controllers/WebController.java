@@ -1,5 +1,6 @@
 package net.appdojo.demo.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,7 +12,8 @@ import net.appdojo.demo.models.User;
 
 @Controller
 public class WebController {
-	UserDAO userDAO = new UserDAO();
+	@Autowired
+	UserDAO userDAO;// = new UserDAO();
 
 	@GetMapping("/")
 	public ModelAndView viewIndex(ModelAndView model) {
