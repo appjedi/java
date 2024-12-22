@@ -9,7 +9,7 @@
     <head>
         <title>Welcome to JSP</title>
         <link href="/static/css/style.css" rel="stylesheet">
-
+		
     </head>
     <body>
     	<h1>Welcome to JSP</h1>
@@ -18,5 +18,13 @@
     		<p>Password: <input type="password" name="password"/></p>
     		<div><button>Login</button></div>
     	</form>
+    	<div id='divMessage'></div>
     </body>
+    <script>
+    	const errorMessage = "${errorMessage}";
+    	if (errorMessage)
+    	{
+    		document.getElementById ("divMessage").innerHTML = "<font color='red'>"+errorMessage+"</font>";	
+    	}
+    </script>
 </html>

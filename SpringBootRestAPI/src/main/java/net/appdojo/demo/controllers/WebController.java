@@ -4,7 +4,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import net.appdojo.demo.dao.UserDAO;
@@ -33,13 +32,14 @@ public class WebController {
 
 	@GetMapping("/login")
 	public ModelAndView viewLogin(ModelAndView model) {
+		model.addObject("errorMessage", "");
+
 		model.setViewName("login");
 		return model;
 		// return "index";
 	}
 
 	@PostMapping(path = "/auth", consumes = "application/x-www-form-urlencoded;charset=UTF-8")
-
 	public ModelAndView auth(User user, ModelAndView model) {
 		try {
 			System.out.printf("1. post auth: \n%s\n", user);
