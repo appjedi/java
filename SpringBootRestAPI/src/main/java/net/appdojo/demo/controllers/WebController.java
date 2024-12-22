@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import org.springframework.web.servlet.ModelAndView;
 
-import net.appdojo.demo.dao.UserDAO;
 import net.appdojo.demo.models.User;
+import net.appdojo.demo.services.MainService;
 
 @Controller
 public class WebController {
 	@Autowired
-	UserDAO userDAO;// = new UserDAO();
+	MainService service;
 
 	@GetMapping("/")
 	public ModelAndView viewIndex(ModelAndView model) {
@@ -25,7 +25,7 @@ public class WebController {
 	@GetMapping("/users")
 	public ModelAndView viewUsers(ModelAndView model) {
 		model.setViewName("users");
-		model.addObject("userList", userDAO.getUsers());
+		model.addObject("userList", service.getUsers());
 		model.addObject("test", "Hello World");
 		return model;
 	}
@@ -42,7 +42,7 @@ public class WebController {
 	public ModelAndView auth(User user, ModelAndView model) {
 		try {
 			System.out.printf("1. post auth: \n%s\n", user);
-			User authUser = userDAO.auth(user.getUsername(), user._pw());
+			User authUser = service.auth(user.getUsername(), user._pw());
 			System.out.printf("2. post auth: \n%s\n", authUser);
 			if (authUser == null) {
 				user.setStatus(0);

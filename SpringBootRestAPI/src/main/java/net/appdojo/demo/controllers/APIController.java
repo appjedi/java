@@ -10,20 +10,20 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.appdojo.demo.dao.UserDAO;
 import net.appdojo.demo.models.User;
+import net.appdojo.demo.services.MainService;
 
 @RestController
 public class APIController {
 	@Autowired
-	UserDAO userDAO;// = new UserDAO();
+	MainService service;
 
 	@PostMapping("/api/auth")
 	@CrossOrigin()
 	public User auth(@RequestBody User user) {
 		try {
 			System.out.printf("1. post auth: \n%s\n", user);
-			User authUser = userDAO.auth(user.getUsername(), user._pw());
+			User authUser = service.auth(user.getUsername(), user._pw());
 			System.out.printf("2. post auth: \n%s\n", authUser);
 			if (authUser == null) {
 				user.setStatus(0);
@@ -47,7 +47,7 @@ public class APIController {
 	@CrossOrigin()
 	public User postUser(@RequestBody User user) {
 		try {
-			userDAO.save(user);
+			service.save(user);
 			return user;
 		} catch (Exception ex) {
 			System.err.println("post auth error:" + ex);
@@ -70,7 +70,7 @@ public class APIController {
 		User user = new User();
 
 		try {
-			user = userDAO.getUser(id);
+			user = service.getUser(id);
 			System.out.println(user);
 			return user;
 		} catch (Exception ex) {
@@ -84,7 +84,7 @@ public class APIController {
 	public List<User> getUsers() {
 
 		try {
-			List<User> users = userDAO.getUsers();
+			List<User> users = service.getUsers();
 			return users;
 		} catch (Exception ex) {
 			return null;
