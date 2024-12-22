@@ -60,7 +60,7 @@ public class UserDAO extends Database{
 	{
 		Database db = new Database();
 		try {
-			ResultSet rs = db.query("SELECT * FROM users where username=? AND password=?",un,pw);
+			ResultSet rs = db.query("SELECT * FROM users WHERE username=? AND password=?",un,pw);
 
         	if (rs==null||!rs.next())
         	{
