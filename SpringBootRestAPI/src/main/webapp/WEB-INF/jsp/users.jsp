@@ -11,6 +11,18 @@
         <link href="/static/css/style.css" rel="stylesheet">
         <script>
         	let name = "";
+            function getTableRow(user) {
+                const tr = `<tr>
+        			<td>${user.userId}</td>
+        			<td>${user.username}</td>
+        			<td>${user.email}</td>
+        			<td>${user.fullName}</td>
+        			<td>${user.roleId}</td>
+        			<td>${user.status}</td>
+        		</tr>`
+
+                return `<tr><td>${user.userId}</td><td>${user.username}</td><td>${user.email}</td><td>${user.fullName}</td><td>${user.roleId}</td><td>${user.status}</td></tr>`
+              }
         </script>
     </head>
     <body>
