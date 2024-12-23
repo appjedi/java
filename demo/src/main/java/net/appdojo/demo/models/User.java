@@ -25,15 +25,11 @@ public class User {
 		this.roleId = roleId;
 		this.status = status;
 	}
-	private static String TO_STRING="{userId:%d, username:'%s', email:'%s',fullName:'%s',roleId:%d, status:%d}";
+	
 	@Override
 	public String toString() {
-		return String.format(TO_STRING,this.userId,this.username, this.email,this.fullName,this.roleId, this.status);
-	}
-	private static String JSON="{'userId':%d, 'username':'%s', 'email':'%s','fullName':'%s','roleId':%d, 'status':%d}";
-	public String getJson ()
-	{
-		return String.format(JSON,this.userId,this.username, this.email,this.fullName,this.roleId, this.status);
+		return "User [userId=" + userId + ", username=" + username + ", password=" + password + ", email=" + email
+				+ ", fullName=" + fullName + ", roleId=" + roleId + ", status=" + status + "]";
 	}
 	public Object[]getValues()
 	{
