@@ -11,12 +11,12 @@ import net.appdojo.demo.models.User;
 public class UserDAO extends Database{
 	public static void main (String[]args)
 	{
-		/*
+		
 		UserDAO dao = new UserDAO();
 		User user = dao.auth("bob","Test1234");
 		System.out.println(user);
-		*/
-		testAddUser();
+		
+		//testAddUser();
 	}
 	public static void testAddUser()
 	{
@@ -60,7 +60,7 @@ public class UserDAO extends Database{
 	{
 		Database db = new Database();
 		try {
-			ResultSet rs = db.query("SELECT * FROM users where username=? AND password=?",un,pw);
+			ResultSet rs = db.query("SELECT * FROM users WHERE username=? AND password=?",un,pw);
 
         	if (rs==null||!rs.next())
         	{
