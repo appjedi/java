@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      const pageLoad = async () => {
+        const response = await fetch('http://localhost:8080/api/users')
+        const data = await response.json()
+
+        console.log(data)
+
+        const userList = document.getElementById('userList')
+
+        data.forEach(user => {
+          const li = document.createElement('li')
+          li.textContent = `${user.fullName} - ${user.email}`
+          userList.appendChild(li)
+        })
+      }
+      pageLoad()
+    </script>
+  </head>
+  <body>
+    <!-- Your web page content here -->
+    <h1>Welcome to My Web Page</h1>
+    <p>This is an example of fetching data from a remote API.</p>
+    <ul id="userList"></ul>
+  </body>
+</html>
