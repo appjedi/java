@@ -1,2 +1,3 @@
 Connect MySQL to Java in IntelliJ 2024 | Full JDBC Tutorial for DB Connectivity
-https://www.youtube.com/watch?v=9ntKSLLDeSs&t=16s
+https://www.youtube.com/watch?v=9ntKSLLDeSs&t=16s  IntelliJ setup minute: 6:45
+File => Project Structure => Moduless
