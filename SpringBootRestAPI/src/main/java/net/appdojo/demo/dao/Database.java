@@ -21,8 +21,8 @@ public class Database {
 	 jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=your_database_name;user=your_username;password=your_password;
 	 */
 	private String[][] connections = {
-			{ "jdbc:mysql://localhost/test", "root", "Test1" ,"com.mysql.cj.jdbc.Driver"},
-			{ "jdbc:mysql://127.0.0.1/training", "root", "Test1234" ,"com.mysql.cj.jdbc.Driver"},
+			{ "jdbc:mysql://localhost/test", "root", "" ,"com.mysql.cj.jdbc.Driver"},
+			{ "jdbc:mysql://appdojo.net/appjedin_training", "appjedin_dba", "$Data2022" ,"com.mysql.cj.jdbc.Driver"},
 			{ "jdbc:sqlserver://localhost\\\\SQLEXPRESS;databaseName=dev", "devuser", "Test1234","com.microsoft.sqlserver.jdbc.SQLServerDriver" }
 	};
 	int connIndex = 1;

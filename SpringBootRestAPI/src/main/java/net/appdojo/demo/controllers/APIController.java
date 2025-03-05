@@ -84,7 +84,7 @@ public class APIController {
 	// @CrossOrigin(origins = "http://127.0.0.1:5500")
 	@CrossOrigin()
 	public List<User> getUsers() {
-
+System.out.println("api/get/users");
 		try {
 			List<User> users = service.getUsers();
 			return users;

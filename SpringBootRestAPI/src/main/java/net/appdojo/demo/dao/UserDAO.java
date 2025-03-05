@@ -110,6 +110,7 @@ public class UserDAO extends Database{
         	return users;
 		}catch (Exception ex)
 		{
+			ex.printStackTrace();
 			return null;
 		}
 	}
