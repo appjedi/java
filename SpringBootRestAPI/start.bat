@@ -1,0 +1,1 @@
+c:; cd 'c:\Users\timli\GitHub\java'; & 'C:\Users\timli\.vscode\extensions\redhat.java-1.40.0-win32-x64\jre\21.0.6-win32-x86_64\bin\java.exe' '@C:\Users\timli\AppData\Local\Temp\cp_477o057j8xnhcb2gkvnpw8aff.argfile' net.appdojo.demo.DemoApplication
