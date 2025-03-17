@@ -12,7 +12,7 @@ import net.appdojo.demo.models.User;
 public class MainService {
 	@Autowired
 	UserDAO userDAO;
-	
+
 	public User getUser(int id)
 	{
 		return userDAO.getUser(id);
