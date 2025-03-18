@@ -21,7 +21,6 @@ public class Database {
 	private String[][] connections = { 
 		{ "jdbc:mysql://localhost/test", "root", " " ,"com.mysql.cj.jdbc.Driver"},
 		{ "jdbc:mysql://appdojo.net/appjedin_training", "appjedin_dba", "$Data2022","com.mysql.cj.jdbc.Driver" },
-		{ "jdbc:sqlserver://localhost\\\\SQLEXPRESS;databaseName=dev", "devuser", "Test1234","com.microsoft.sqlserver.jdbc.SQLServerDriver" }
 	};
 	int connIndex = 1;
 	String memoryURL = "jdbc:sqlite::memory:";
