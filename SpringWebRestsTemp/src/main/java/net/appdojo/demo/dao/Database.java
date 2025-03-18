@@ -18,7 +18,8 @@ public class Database {
 	private static String jdbcUsername = "root";
 	private static String jdbcPassword = "";
 
-	private String[][] connections = { { "jdbc:mysql://localhost/test", "root", " " ,"com.mysql.cj.jdbc.Driver"},
+	private String[][] connections = { 
+		{ "jdbc:mysql://localhost/test", "root", " " ,"com.mysql.cj.jdbc.Driver"},
 		{ "jdbc:mysql://appdojo.net/appjedin_training", "appjedin_dba", "$Data2022","com.mysql.cj.jdbc.Driver" },
 		{ "jdbc:sqlserver://localhost\\\\SQLEXPRESS;databaseName=dev", "devuser", "Test1234","com.microsoft.sqlserver.jdbc.SQLServerDriver" }
 	};
