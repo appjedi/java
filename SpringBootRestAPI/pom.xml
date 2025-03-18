@@ -37,7 +37,7 @@
         <lifecycle-mapping>1.0.0</lifecycle-mapping>
         <maven-checkstyle.version>3.6.0</maven-checkstyle.version>
         <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
-        <!-- spring-format.version>0.0.43</spring-format.version -->
+        <spring-format.version>0.0.43</spring-format.version>
 
     </properties>
 
@@ -184,8 +184,9 @@
         </dependency>
 
     </dependencies>
-
+    <packaging>war</packaging>
     <build>
+        <finalName>api-demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -209,7 +210,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--plugin>
+            <plugin>
                 <groupId>io.spring.javaformat</groupId>
                 <artifactId>spring-javaformat-maven-plugin</artifactId>
                 <version>${spring-format.version}</version>
@@ -221,7 +222,7 @@
                         <phase>validate</phase>
                     </execution>
                 </executions>
-            </plugin -->
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -471,14 +472,14 @@
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
-                                            <!-- pluginExecutionFilter>
+                                            <pluginExecutionFilter>
                                                 <groupId>io.spring.javaformat</groupId>
                                                 <artifactId>spring-javaformat-maven-plugin</artifactId>
                                                 <versionRange>[0,)</versionRange>
                                                 <goals>
                                                     <goal>validate</goal>
                                                 </goals>
-                                            </pluginExecutionFilter -->
+                                            </pluginExecutionFilter>
                                             <action>
                                                 <ignore></ignore>
                                             </action>
