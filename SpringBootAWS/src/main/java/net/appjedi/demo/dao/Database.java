@@ -26,6 +26,7 @@ public class Database {
 	private String[][] connections = {
 			{ "jdbc:mysql://localhost/test", "root", "" ,"com.mysql.cj.jdbc.Driver"},
 			{ "jdbc:mysql://127.0.0.1/training", "root", "Jedi2023" ,"com.mysql.cj.jdbc.Driver"},
+			{ "jdbc:mysql://mydbdev.cbmuwgoa0em8.us-east-2.rds.amazonaws.com/training", "admin", "Data2025" ,"com.mysql.cj.jdbc.Driver"},
 			{ "jdbc:mysql://appjedi.net/appjedin_training", "appjedin_dba", "$Data2022" ,"com.mysql.cj.jdbc.Driver"},
 			{ "jdbc:sqlserver://localhost\\\\SQLEXPRESS;databaseName=dev", "devuser", "Test1234","com.microsoft.sqlserver.jdbc.SQLServerDriver" }
 	};
