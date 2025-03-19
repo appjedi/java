@@ -119,6 +119,7 @@ public class Database {
 		try {
 			if (conn != null)
 				return conn;
+			System.out.printf("Connection: %s\n",connections[connIndex][0]);
 		//	Class.forName("com.mysql.cj.jdbc.Driver");
             Class.forName(connections[connIndex][3]);
 			conn = DriverManager.getConnection(connections[connIndex][0], connections[connIndex][1],

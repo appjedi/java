@@ -103,6 +103,7 @@ public class UserDAO extends Database {
 			} while (rs.next());
 			return users;
 		} catch (Exception ex) {
+			ex.printStackTrace();
 			return null;
 		} finally {
 			db.close();
