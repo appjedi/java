@@ -89,7 +89,7 @@ public class UserDAO extends Database{
 		Database db = new Database();
 		try {
 			ResultSet rs = db.getResultSet("SELECT * FROM users");
-        	
+
         	if (rs==null||!rs.next())
         	{
         		System.err.println ("Query failed");
@@ -98,7 +98,6 @@ public class UserDAO extends Database{
         	List<User>users=new ArrayList<User>();
         	do {
 	        	User user = new User();
-	        	
 	        	user.setUserId(rs.getInt("id"));
 	        	user.setEmail(rs.getString("email"));
 	        	user.setUsername(rs.getString("username"));
@@ -125,6 +124,5 @@ public class UserDAO extends Database{
 		{
 			return null;
 		}
-		
 	}
 }

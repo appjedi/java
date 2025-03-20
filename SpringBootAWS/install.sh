@@ -1,1 +1,1 @@
-mvn install
+./mvnw install

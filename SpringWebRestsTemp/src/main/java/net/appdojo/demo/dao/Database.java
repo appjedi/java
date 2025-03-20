@@ -17,12 +17,10 @@ public class Database {
 	private static String jdbcURL = "jdbc:mysql://localhost/test";
 	private static String jdbcUsername = "root";
 	private static String jdbcPassword = "";
-	/*
-	 jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=your_database_name;user=your_username;password=your_password;
-	 */
-	private String[][] connections = { { "jdbc:mysql://localhost/test", "root", " " ,"com.mysql.cj.jdbc.Driver"},
-			{ "jdbc:mysql://appdojo.net/appjedin_training", "appjedin_dba", "$Data2022","com.mysql.cj.jdbc.Driver" },
-			{ "jdbc:sqlserver://localhost\\\\SQLEXPRESS;databaseName=dev", "devuser", "Test1234","com.microsoft.sqlserver.jdbc.SQLServerDriver" }
+
+	private String[][] connections = { 
+		{ "jdbc:mysql://localhost/test", "root", " " ,"com.mysql.cj.jdbc.Driver"},
+		{ "jdbc:mysql://appdojo.net/appjedin_training", "appjedin_dba", "$Data2022","com.mysql.cj.jdbc.Driver" },
 	};
 	int connIndex = 1;
 	String memoryURL = "jdbc:sqlite::memory:";

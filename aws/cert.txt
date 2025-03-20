@@ -1,0 +1,19 @@
+STOP APP SERVER:
+screen -S appSERVER
+sudo /opt/bitnami/ctlscript.sh stop
+
+sudo /opt/bitnami/bncert-tool
+sudo /opt/bitnami/letsencrypt/lego --tls --email="bob@timlin.net" --domains="timlin.org" --path="/opt/bitnami/letsencrypt" renew --days 90
+
+IP: 34.222.102.45
+sudo /opt/bitnami/ctlscript.sh start
+
+screen -r
+
+ps wax | grep httpd kill all httpd processes.
+
+cd node/appdpjo
+screen -S appSERVER
+sudo nohup node server.js &
+https://www.timlin.org
+

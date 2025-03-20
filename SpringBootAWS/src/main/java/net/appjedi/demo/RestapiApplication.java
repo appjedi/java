@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /*
  Deploy a Spring Boot App to AWS EC2 from Scratch: Step By Step Guide[2025]
  https://www.youtube.com/watch?v=l7SfCeLiBFU&t=352s
+
+ $ sudo yum install java-21
  */
 @SpringBootApplication
 public class RestapiApplication {

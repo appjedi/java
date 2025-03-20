@@ -1,0 +1,24 @@
+aws console:
+u: wkk.com@gm
+p: 1819Mar....
+
+STOP WKK SERVER:
+screen -S wkkSERVER
+sudo /opt/bitnami/ctlscript.sh stop
+
+sudo /opt/bitnami/bncert-tool
+sudo /opt/bitnami/letsencrypt/lego --tls --email="wadokikai.com@gmail.com" --domains="app.wadokikai.org" --path="/opt/bitnami/letsencrypt" renew --days 90
+
+IP: 34.212.47.6
+sudo /opt/bitnami/ctlscript.sh start
+
+screen -r
+
+ps wax | grep httpd kill all httpd processes.
+
+cd projects/wadokikai
+screen -S wkkSERVER
+sudo node app.js
+https://www.wadokikai.org/
+
+
