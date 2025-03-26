@@ -30,7 +30,7 @@ public class Database {
 			{ "jdbc:mysql://appjedi.net/appjedin_training", "appjedin_dba", "$Data2022" ,"com.mysql.cj.jdbc.Driver"},
 			{ "jdbc:sqlserver://localhost\\\\SQLEXPRESS;databaseName=dev", "devuser", "Test1234","com.microsoft.sqlserver.jdbc.SQLServerDriver" }
 	};
-	int connIndex = 2;
+	int connIndex = 3;
 	String memoryURL = "jdbc:sqlite::memory:";
 	private Connection conn;
 
