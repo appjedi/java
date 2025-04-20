@@ -105,7 +105,7 @@ public class UserDAO extends Database{
 	        	user.setStatus(rs.getInt("status"));
 	        	user.setRoleId(rs.getInt("role_id"));
 	        	users.add(user);
-        	}while (rs.next());
+        	} while (rs.next());
         	return users;
 		}catch (Exception ex)
 		{
