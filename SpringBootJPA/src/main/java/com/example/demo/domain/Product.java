@@ -90,7 +90,7 @@ public class Product implements Serializable {
     }
 
     public Set<Part> getParts() {
-(fetch        return parts;
+        return parts;
     }
 
     public void setParts(Set<Part> parts) {
