@@ -37,4 +37,20 @@ public class HomeController {
 		}
 
 	}
+	@PostMapping("/user/{id}")
+	@CrossOrigin()
+	public String postUser(@PathVariable int id, @RequestBody User user) {
+		try {
+			//service.save(user);
+			//return user;
+			String retval =String.format("{id: %d, %s}",id,user);
+		} catch (Exception ex) {
+			System.err.println("post auth error:" + ex);
+			user.setStatus(-1);
+			user.setUserId(0);
+			user.setRoleId(0);
+			user.setFullName("error:" + ex.getMessage());
+			return user;
+		}
+	}
 }

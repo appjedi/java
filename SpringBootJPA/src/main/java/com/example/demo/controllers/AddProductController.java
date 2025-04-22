@@ -114,7 +114,14 @@ public class AddProductController {
 			return "confirmationaddproduct";
 		}
 	}
+	@PutMapping("/showFormAddProduct/{id}")
+	public String putProduct(@Valid @ModelAttribute("product") Product product, @PathVariable int id,BindingResult bindingResult,
+			Model theModel) {
+			String retval = String.format ("*** PUT PRODUCT id: %d, %s\n", id, product.getName());
+		
 
+			return retval;
+	}
 	@GetMapping("/showProductFormForUpdate")
 	public String showProductFormForUpdate(@RequestParam("productID") int theId, Model theModel) {
 		theModel.addAttribute("parts", partService.findAll());
