@@ -1,73 +1,71 @@
+
 //package app.server;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-
 ;
 /*
- * Clicker: A: I really get it    B: No idea what you are talking about
- * C: kind of following
- */
+* Clicker: A: I really get it    B: No idea what you are talking about
+* C: kind of following
+*/
 
-public class Server{
-	//private Server thisServer;
-	public static void main(String[]args)
-	{
+public class Server {
+	// private Server thisServer;
+	public static void main(String[] args) {
 		new Server();
-		
+
 	}
-	int count = 1;	
+
+	int count = 1;
 	ArrayList<ClientThread> clients = new ArrayList<ClientThread>();
 	TheServer server;
 
-	
-	
-	Server(){
+	Server() {
 		server = new TheServer();
 		server.start();
 	}
-	
-	
-	public class TheServer extends Thread{
-		
+
+	public class TheServer extends Thread {
+
 		public void run() {
-		
-			try(ServerSocket mysocket = new ServerSocket(5555);){
-		    System.out.println("Server is waiting for a client!");
-		  
-			
-		    while(true) {
-		
-				ClientThread c = new ClientThread(mysocket.accept(), count);
-				//callback.accept("client has connected to server: " + "client #" + count);
-				System.out.println("client has connected to server: " + "client #" + count);
-				clients.add(c);
-				c.start();
-				
-				count++;
-				
-			    }
-			}//end of try
-				catch(Exception e) {
-					//callback.accept("Server socket did not launch");
-					System.err.println("Server socket did not launch");
+
+			try (ServerSocket mysocket = new ServerSocket(5555);) {
+				System.out.println("Server is waiting for a client!");
+
+				while (true) {
+
+					ClientThread c = new ClientThread(mysocket.accept(), count);
+					// callback.accept("client has connected to server: " + "client #" + count);
+					System.out.println("client has connected to server: " + "client #" + count);
+					clients.add(c);
+					c.start();
+
+					count++;
 
 				}
-			}//end of while
-		}
-	
+			} // end of try
+			catch (Exception e) {
+				// callback.accept("Server socket did not launch");
+				System.err.println("Server socket did not launch");
 
-		class ClientThread extends Thread{
+			}
+		}// end of while
+	}
+
+	class ClientThread extends Thread{
 			
 		
 			Socket connection;
 			int count;
-			ObjectInputStream in;
-			ObjectOutputStream out;
+			BufferedReader in;
+			PrintWriter out;
 			
 			ClientThread(Socket s, int count){
 				this.connection = s;
@@ -77,49 +75,51 @@ public class Server{
 			public void updateClients(String message) {
 				for(int i = 0; i < clients.size(); i++) {
 					ClientThread t = clients.get(i);
+					
 					try {
-					 t.out.writeObject(message);
+						System.out.printf ("Send to client # %d - %s\n",i,message);
+						//t.out.println(message);
+						t.message(message);
 					}
-					catch(Exception e) {}
+					catch(Exception e) {
+						e.printStackTrace();
+					}
 				}
 			}
-			
+			public void message(String msg)
+			{
+				System.out.println("Message from server: "+msg);
+			}
 			public void run(){
 					
 				try {
-					in = new ObjectInputStream(connection.getInputStream());
-					out = new ObjectOutputStream(connection.getOutputStream());
+					in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+					out = new PrintWriter(connection.getOutputStream(),true);
 					connection.setTcpNoDelay(true);	
-				}
+				
+				
+					System.out.println("new client on server: client #"+count);
+					String inputLine;
+					while((inputLine=in.readLine())!=null) {
+						    try {
+						    	System.out.println("received from client: " + count + " sent: " +inputLine);
+						    	updateClients("client #"+count+" said: "+inputLine);
+						    	out.println("Server: "+inputLine);
+						    }
+						    catch(Exception e) {
+						    	e.printStackTrace();
+						    	System.err.println("OOOOPPs...Something wrong with the socket from client: " + count + "....closing down!");
+						    	updateClients("Client #"+count+" has left the server!");
+						    	clients.remove(this);
+						    	break;
+						    }
+						}
+				}//end of run
 				catch(Exception e) {
+					e.printStackTrace();
 					System.out.println("Streams not open");
 				}
-				
-				updateClients("new client on server: client #"+count);
-					
-				 while(true) {
-					    try {
-					    	String data = in.readObject().toString();
-					    	System.out.println("received from client: " + count + " sent: " + data);
-					    	updateClients("client #"+count+" said: "+data);
-					    	
-					    	}
-					    catch(Exception e) {
-					    	e.printStackTrace();
-					    	System.err.println("OOOOPPs...Something wrong with the socket from client: " + count + "....closing down!");
-					    	updateClients("Client #"+count+" has left the server!");
-					    	clients.remove(this);
-					    	break;
-					    }
-					}
-				}//end of run
 			
-			
+			}
 		}//end of client thread
 }
-
-
-	
-	
-
-	
